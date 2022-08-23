@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>ICT Basics of Computer</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <link rel="stylesheet" href="quiz_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+  </head>
+
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            /><p id="logo-txt"><span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span></p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                style="height: 50px; width: 50px"
+                src="../image/logo-modified.png"
+                alt="logo"
+              />
+            </a>
+            <span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight1"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight2"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Tutorial SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="../tutorial/Mathematics.sets.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="../tutorial/Mathematics.venn.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Tutorial SideBar Section End -->
+<!-- ICT Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight1"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Tutorials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="../tutorial/ICT.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="../tutorial/ICT.tools.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="../tutorial/ICT.assembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="../tutorial/ICT.disassembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+              <hr>
+              <li><a href="../tutorial/ICT.networking.html" style="color: black;line-height: 0 ;font-size: .9rem;">Computer Networking Basics</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Tutorial SideBar Section Ends -->
+<!-- EIM Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="../tutorial/EIM.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="../tutorial/EIM.materials.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="../tutorial/EIM.types.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight3"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight4"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight5"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Quizzes SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+            >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="Mathematics.sets_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="Mathematics.venn_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Quizzes SideBar Section End -->
+<!-- ICT Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Quizzes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="ICT.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="ICT.tools_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="ICT.assembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="ICT.disassembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Quizzes SideBar Section Ends -->
+<!-- EIM Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="EIM.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="EIM.materials_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="EIM.types_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+<!--Quizzes link ends-->
+<!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+<!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img 
+            style="width: 30px; height: 30px; cursor: pointer;"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+<!-- Navigation bar ends-->
+
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div style="border-radius: 12px" class="col-sm-8">
+            <div style="text-align: center" id="result" class="quiz-body">
+              <form name="quizForm" onSubmit="">
+                <fieldset class="form-group">
+                  <h2 class="mt-5" style="font-weight: bold;">BASIC OF COMPUTER</h2><br>
+                  <h4><span id="qid">1.</span> <span id="question"></span></h4>
+
+                  <div
+                    style="margin: auto"
+                    class="option-block-container p-4 text-center"
+                    id="question-options"
+                  ></div>
+
+                  <!-- End of option block -->
+                </fieldset>
+                <button
+                  style="background-color: #0078d4; color: #fff"
+                  name="previous"
+                  id="previous"
+                  class="btn"
+                >
+                  Previous
+                </button>
+                &nbsp;
+                <button
+                  style="background-color: #0078d4; color: #fff"
+                  name="next"
+                  id="next"
+                  class="btn"
+                >
+                  Next
+                </button>
+              </form>
+            </div>
+          </div>
+          <!-- End of col-sm-12 -->
+        </div>
+        <!-- End of row -->
+      </div>
+      <!-- ENd of container fluid -->
+    </div>
+    <!-- End of content -->
+
+    <!-- Footer Section Starts -->
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About
+                ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you
+                to learn and to test your knowledge about the fundamentals of
+                selected courses such as Mathematics, ICT, and EIM.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a
+                  style="text-decoration: none"
+                  href="#!"
+                  class="text-reset"
+                ></a>
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+    <!-- External script -->
+    <script src="ICT.basics_quiz.js"></script>
+    <script type="text/javascript" src="../navbar_script.js"></script>
+  </body>
+</html>

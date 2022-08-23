@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>EIM Basics of Electricity</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+  </head>
+
+
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            /><p id="logo-txt"><span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span></p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                style="height: 50px; width: 50px"
+                src="../image/logo-modified.png"
+                alt="logo"
+              />
+            </a>
+            <span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight1"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight2"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Tutorial SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">
+               Mathematics Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;" class="text-dark">College Algebra</h3>
+              <ul>
+                <li><a href="Mathematics.sets.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr class="text-dark">
+                <li><a href="Mathematics.venn.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Tutorial SideBar Section End -->
+<!-- ICT Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight1"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">
+              Information and Communications Technology Tutorials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;" class="text-dark">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="ICT.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr class="text-dark">
+              <li><a href="ICT.tools.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr class="text-dark">
+              <li><a href="ICT.assembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr class="text-dark">
+              <li><a href="ICT.disassembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+              <hr class="text-dark">
+              <li><a href="ICT.networking.html" style="color: black;line-height: 0 ;font-size: .9rem;">Computer Networking Basics</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Tutorial SideBar Section Ends -->
+<!-- EIM Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;" class="text-dark">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="EIM.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr class="text-dark">
+                <li><a href="EIM.materials.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr class="text-dark">
+                <li><a href="EIM.types.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight3"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight4"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight5"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Quizzes SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+            >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">
+               Mathematics Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;" class="text-dark">College Algebra</h3>
+              <ul>
+                <li><a href="../quiz/Mathematics.sets_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr class="text-dark">
+                <li><a href="../quiz/Mathematics.venn_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Quizzes SideBar Section End -->
+<!-- ICT Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Quizzes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="../quiz/ICT.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.tools_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.assembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.disassembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Quizzes SideBar Section Ends -->
+<!-- EIM Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="../quiz/EIM.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.materials_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.types_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+<!--Quizzes link ends-->
+<!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+<!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img 
+            style="width: 30px; height: 30px; cursor: pointer;"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+<!-- Navigation bar ends-->
+
+
+    <!-- content 1 -->
+    <div
+      class="section-2-container section-container pt-5"
+      id="section-2"
+      style="margin-top: 10vh;"
+    >
+      <div class="row">
+        <div class="col section-2 section-description wow fadeIn"></div>
+      </div>
+      <div class="container ">
+        <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+          Basics of Electricity
+        </div>
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 400px; width: 400px"
+              src="https://cairowestmag.com/wp-content/uploads/2019/03/15-Tips-for-Saving-Electricity2-681x431.jpeg"
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">
+              What is Basic Electricity?
+            </h3>
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+              Basic electricity is described in many ways. When an electric
+              circuit flows through a conductor, a magnetic field (or "flux")
+              develops around the conductor. The highest flux density occurs
+              when the conductor is formed into a coil having many turns. In
+              electronics and electrical technology, a coil is usually known as
+              an inductor.
+            </p>
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+              If a steady DC current is run through the coil, you would have an
+              electromagnet - a device with the properties of a conventional
+              magnet, except you can turn it on or off by placing a switch in
+              the circuit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content 2 -->
+    <div
+      class="section-2-container section-container  pt-5"
+      id="section-2"
+    >
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">What is Electricity?</h3>
+            <br />
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+              Electricity is the flow of electrons from one place to another.
+              Electrons can flow through any material, but does so more easily
+              in some than in others. How easily it flows is called resistance.
+              The resistance of a material is measured in Ohms.
+            </p>
+            <!-- Modal Starts -->
+            <div class="container pt-1">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+              >
+                Learn More
+              </button>
+
+              <!-- The Modal -->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Learn more about Electricity</h4>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                          class="embed-responsive-item w-100"
+                          src="https://www.youtube.com/embed/ru032Mfsfig"
+                          allowfullscreen
+                          height="375px"
+                        ></iframe>
+                      </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video Ends -->
+            <!-- Modal Ends -->
+          </div>
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 100%; width: 100%"
+              src="https://img.freepik.com/free-vector/students-watching-webinar-computer-studying-online_74855-15522.jpg?w=2000"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content 3 -->
+    
+      <div class="row">
+        <div class="col section-2 section-description wow fadeIn"></div>
+      </div>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 400px; width: 400px"
+              src="https://media.istockphoto.com/vectors/teamwork-concept-with-character-coworker-putting-jigsaw-puzzle-vector-id1316676125?k=20&m=1316676125&s=612x612&w=0&h=GdWF0LvhLvBsli4dxjBao5BF6OX72xc2ZTTsKOIP1P0="
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5 p-2" style="margin-left: 10%">
+                Basic Electrical Theory
+            </h3>
+            <p>There are four basic electrical quantities that we need to know:</p>
+            <ul>
+                <li>Electrical Current</li>
+                <li>Potential Difference (Voltage)</li>
+                <li>Power</li>
+                <li>Resistance</li>
+              </ul> 
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div
+      class="section-2-container section-container pt-5"
+      id="section-2"
+    >
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">What is Electrical Current?</h3>
+            <br />
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+                Current is a flow of charge. Each electron carries a charge of 1.6 × 10-19 coulombs. This is far too small to be any use, so we consider electricity to flow in packets called coulombs. When there is a flow of 1 coulomb per second, a current of 1 amp is flowing. Current circuit electric is measured in ampères, or amps (A).
+            </p>
+            <!-- Modal Starts -->
+            <div class="container pt-1">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModalv2"
+              >
+                Learn More
+              </button>
+
+              <!-- The Modal -->
+              <div class="modal" id="myModalv2">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Learn more about Electrical Current</h4>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                          class="embed-responsive-item w-100"
+                          src="https://www.youtube.com/embed/kcL2_D33k3o    "
+                          allowfullscreen
+                          height="375px"
+                        ></iframe>
+                      </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video Ends -->
+            <!-- Modal Ends -->
+          </div>
+          <div class="col-md-5 section-2-box wow fadeInUp mb-5">
+            <img
+              style="height: 100%; width: 100%"
+              src="https://cdn.britannica.com/15/161915-138-31C83928/materials-circuit-resistance-flow-current-conductors.jpg?w=800&h=450&c=crop"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="container">
+        
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp mb-5">
+            <img
+              style="height: 300px; width: 100%"
+              src="https://www.electronicshub.org/wp-content/uploads/2019/09/Electric-Potential-and-Electric-Potential-Difference-Featured-Image.jpg"
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2s">
+            <h3 class="mt-5" style="margin-left: 10%">
+                Potential Difference
+            </h3>
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+                Potential difference is often referred to as voltage. There are several ways of defining voltage; the correct physics definition is energy per unit charge, in other words, how big a job of work each lump of charge can do.       
+            </p>
+            <p style="text-align: justify; text-indent: 60px" class="p-2">
+                Potential difference (p.d.) is measured in volts (V) and is also called voltage. The energy is transferred to the electrical components in a circuit when the charge carriers pass through them. We use a voltmeter to measure potential difference (or voltage).
+            </p>
+            <!-- Modal Starts -->
+            <div class="container pt-1">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalv3"
+                >
+                  Learn More
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModalv3">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Learn more about Potential Difference</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+  
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe
+                            class="embed-responsive-item w-100"
+                            src="https://www.youtube.com/embed/SNlOPxZ-Ev4"
+                            allowfullscreen
+                            height="375px"
+                          ></iframe>
+                        </div>
+                      </div>
+  
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Video Ends -->
+              <!-- Modal Ends -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col section-2 section-description wow fadeIn"></div>
+      </div>
+      <div class="container ">
+        
+        <div class="row">
+          
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5 p-2" style="margin-left: 10%">
+                Electric Power 
+            </h3>
+            <p style="text-align: justify; text-indent: 60px" class="p-2">Power is one of the key concepts and units associated with electrical science, measured in watts, power is an important parameter.</p>
+
+            <p style="text-align: justify; text-indent: 60px" class="p-2">An important aspect of any electrical or electronic circuit is the power associated with it. It is found that when a current flows through a resistor, electrical energy is converted into heat.</p>
+
+            <p style="text-align: justify; text-indent: 60px" class="p-2">At other times much smaller resistors and very much smaller currents are used. Here the amount of heat generated may be very small. However if some current flows then some heat is generated. In this instance the heat generated represents the amount of electrical power being dissipated.</p>
+            
+
+             <!-- Modal Starts -->
+             <div class="container pt-1 mb-5">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalv4"
+                >
+                  Learn More
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModalv4">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Learn more about Electric Power</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+  
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe
+                            class="embed-responsive-item w-100"
+                            src="https://www.youtube.com/embed/VSpB3HivkhY"
+                            allowfullscreen
+                            height="375px"
+                          ></iframe>
+                        </div>
+                      </div>
+  
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Video Ends -->
+              <!-- Modal Ends -->
+          </div>
+
+          <div class="col-md-5 section-2-box wow fadeInUp mb-5">
+            <img
+              style="height: 350px; width: 400px"
+              src="https://epceonline.org/wp-content/uploads/2020/01/E47-web-graphic-Electric-power-tech_0-scaled.jpg"
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    <div
+    class="section-2-container section-container  pt-5"
+    id="section-2"
+    >
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+          <h3 class="mt-5" style="margin-left: 10%">Electrical Resistance Behaviour</h3>
+          <br />
+          <p style="text-align: justify; text-indent: 60px" class="p-2">
+            This is the opposition to the flow of an electric current.
+          </p>
+
+          <p style="text-align: justify; text-indent: 60px" class="p-2">
+            There's reciprocity in the interaction between electron flow and magnetism. If you sweep one pole of a magnet quickly past an electrical conductor (at a right angle to it), a voltage will be momentarily "induced" in the conductor. The polarity of the voltage will depend upon which pole of the magnet you're using, and in which direction it sweeps past the conductor.
+          </p>
+          <!-- Modal Starts -->
+          <div class="container pt-1">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#myModalv5"
+            >
+              Learn More
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModalv5">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Learn more about Electrical Resistance Behaviour</h4>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                    ></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item w-100"
+                        src="https://www.youtube.com/embed/LxUUm-amsrY   "
+                        allowfullscreen
+                        height="375px"
+                      ></iframe>
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Ends -->
+          <!-- Modal Ends -->
+        </div>
+        <div class="col-md-5 section-2-box wow fadeInUp mb-5">
+          <img
+            style="height: 300px; width: 100%"
+            src="https://www.staging.electrical4u.com/wp-content/uploads/What-is-Electrical-Resistance-1.png"
+          class="mb-5"
+            />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content 4 -->
+
+  <div class="container mb-5">
+        
+    <div class="row">
+      <div class="col-md-5 section-2-box wow fadeInUp mb-5">
+        <img
+          style="height: 400px; width: 100%"
+          src="http://www.electronicsandyou.com/blog/wp-content/uploads/2018/12/types-of-electric-current.jpg"
+          alt="about-us"
+          class="rounded w-100 mt-5 p-2"
+        />
+      </div>
+      <div class="col-md-7 section-2-box wow fadeInLeft p-2s">
+        <h3 class="mt-5" style="margin-left: 10% ">
+          Types of Electrical Current
+        </h3>
+        <br>
+        <ul>
+          <li>Direct Current</li>
+          <li>Alternating Current</li>
+        </ul>
+        <h4 class="mt-5" style="margin-left: 10% ">
+          Direct Current
+        </h4>
+        <p style="text-align: justify; text-indent: 60px" class="p-2">
+          Direct current (DC) is one-directional flow of electric charge. An electrochemical cell is a prime example of DC power. Direct current may flow through a conductor such as a wire, but can also flow through semiconductors, insulators, or even through a vacuum as in electron or ion beams. 
+        </p>
+
+        <h4 class="mt-5" style="margin-left: 10% ">
+          Alternating Current
+        </h4>
+        <p style="text-align: justify; text-indent: 60px" class="p-2">
+          Alternating current, abbreviation AC, flow of electric charge that periodically reverses. It starts, say, from zero, grows to a maximum, decreases to zero, reverses, reaches a maximum in the opposite direction, returns again to the original value, and repeats this cycle indefinitely. 
+        </p>
+        <!-- Modal Starts -->
+        <div class="container pt-1">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal6"
+            >
+              Learn More
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal6">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Learn more about Types of Electrical Current</h4>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                    ></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item w-100"
+                        src="https://www.youtube.com/embed/VhsUgiLcrgo"
+                        allowfullscreen
+                        height="375px"
+                      ></iframe>
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Ends -->
+          <!-- Modal Ends -->
+       
+
+      </div>
+    </div>
+  </div>
+
+ <!-- Button -->
+      <div class="container-fluid mt-3 mb-3">
+        <div class="d-flex justify-content-between  mb-3">
+          <div class="p-2 "><a href="../index.html" type="button" class="btn btn-primary">Back to Home</a></div>
+
+          <div class="p-2 "><a href="../quiz/EIM.basics_quiz.html" type="button" class="btn btn-primary">Start Quiz</a></div>
+
+          <div class="p-2 "><a href="EIM.materials.html" type="button" class="btn btn-primary">Electrical Materials and Tools</a></div>
+        </div>
+      </div>
+    
+
+    <!-- Footer Section Starts -->
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left side-->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <!-- Right side -->
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you to learn and to test your knowledge about the fundamentals of selected courses such as Mathematics, ICT, and EIM. 
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="#!" class="text-reset"
+                  ></a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External script -->
+    <script type="text/javascript" src="../navbar_script.js"></script>
+    
+  </body>
+</html>

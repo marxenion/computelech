@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>ICT PC Disassembly</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/horta"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins"
+    />
+  </head>
+
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            />
+            <p id="logo-txt">
+              <span id="comput-txt">Comput</span
+              ><span id="elech-txt">Elech</span>
+            </p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                  style="height: 50px; width: 50px"
+                  src="../image/logo-modified.png"
+                  alt="logo"
+                />
+              </a>
+              <span id="comput-txt">Comput</span
+              ><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight1"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">ICT</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight2"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">EIM</a>
+                </li>
+                <!-- Math Tutorial SideBar Section  Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Mathematics Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">College Algebra</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="Mathematics.sets.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Sets</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="Mathematics.venn.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Set Operations and Venn Diagrams</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Math Tutorial SideBar Section End -->
+                <!-- ICT Tutorial SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight1"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Information and Communications Technology Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">ICT Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="ICT.basics.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Computer</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.tools.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Tools and Safety</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.assembly.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Assembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.disassembly.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Disassembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.networking.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Networking Basics</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ICT Tutorial SideBar Section Ends -->
+                <!-- EIM Tutorial SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight2"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Electrical Installation and Maintenance Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">EIM Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="EIM.basics.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Electricity</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="EIM.materials.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Electrical Materials and Tools</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="EIM.types.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Types of Electrical Diagram</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span
+                    ><a href="#">More</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight3"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight4"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">ICT</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight5"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">EIM</a>
+                </li>
+                <!-- Math Quizzes SideBar Section  Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight3"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Mathematics Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">College Algebra</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/Mathematics.sets_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Sets</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/Mathematics.venn_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Set Operations and Venn Diagrams</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Math Quizzes SideBar Section End -->
+                <!-- ICT Quizzes SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight4"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Information and Communications Technology Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">ICT Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/ICT.basics_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Computer</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.tools_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Tools and Safety</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.assembly_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Assembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.disassembly_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Disassembly</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ICT Quizzes SideBar Section Ends -->
+                <!-- EIM Quizzes SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight5"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Electrical Installation and Maintenance Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">EIM Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/EIM.basics_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Electricity</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/EIM.materials_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Electrical Materials and Tools</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/EIM.types_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Types of Electrical Diagram</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+            <!--Quizzes link ends-->
+            <!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img
+            style="width: 30px; height: 30px; cursor: pointer"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation bar ends-->
+
+    <!-- Content 1 start Computer Disassembly -->
+    <div
+      class="section-2-container section-container section-container-gray-bg pt-5"
+      id="section-2"
+      style="margin-top: 10vh"
+    >
+      <div class="row">
+        <div class="col section-2 section-description wow fadeIn"></div>
+      </div>
+      <div class="container">
+        <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+          PC Disassembly
+        </div>
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 400px; width: 400px"
+              src="https://thumbs.dreamstime.com/b/assembling-pc-personal-computer-hardware-hands-motherboard-hard-drive-cpu-fan-graphic-card-memory-screwdriver-case-vector-89084640.jpg"
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2 pb-3"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%"></h3>
+            <p
+              style="text-align: justify; text-indent: 60px; margin-top: 2rem"
+              class="p-2"
+            >
+              Disassembly is the process of breaking down a device into separate
+              parts. Disassembly of any device is required to determine a
+              problem, to replace a part, or take the parts and use them in
+              another device. A computer is also an electronic device which
+              requires disassembly for such issues. For example, if a RAM gets
+              dysfunctional in a computer, then it requires disassembling the
+              computer to take out the dysfunctional RAM and replace it with new
+              RAM chips. As we know, computers have standard internal
+              components, but the way of placement may vary as per the PC tower
+              case and different brands of computer. The best way is to refer to
+              the manufacturer instructions manual. But in general there is a
+              standard process of computer disassembly, which is demonstrated in
+              this session. Just like computer assembly, the disassembly is a
+              standard process. The process involves unplugging of all the cords
+              and cables connecting a component to other components, then
+              removing the part from the case or frame. Components can be
+              attached to the case with special clips, screws, or by insertion
+              into a holder. A small amount of force is required to remove each
+              part of the computer system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 1 end Computer Disassembly -->
+
+    <!-- Content 2 start Material Required -->
+    <div
+      class="section-2-container section-container section-container-gray-bg pt-5"
+      id="section-2"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">Material Required</h3>
+            <br />
+            <ul>
+              <li>One working PC.</li>
+              <li>An anti‑static wrist strap.</li>
+              <li>An anti‑static mat.</li>
+              <li>Anti-static bags of various sizes.</li>
+              <li>Technician’s toolkit.</li>
+              <li>A plastic cup or box to organise screws, nuts, and bolts.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 400px; width: 400px"
+              class="rounded w-100 mt-5 p-2"
+              src="../image/assem.JPG"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 2 end Material Required -->
+
+    <!-- Content 3 start Procedure -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h3>Procedure</h3>
+          <p>The disassembly procedure of computer is demonstrated as below.</p>
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-4 section-2-box">
+              <img style="height: 100%; width: 100%" src="../image/sys1.png" />
+              <small><em>System Unit</em></small>
+            </div>
+          </div>
+
+          <!-- Step 1: Unplugging -->
+          <h5 class="mt-5">Step 1: Unplugging</h5>
+          <ul>
+            <li>
+              Unplug the power cord from the PC and from the wall socket to
+              prevent any injuries and damage of the PC from electrostatic
+              discharge (ESD).
+            </li>
+            <li>
+              Unplug all the peripherals attached to the computer, such as the
+              keyboard, mouse, monitor, headphones, and any external drives.
+            </li>
+            <li>Wear a grounding strap to discharge any static electricity.</li>
+          </ul>
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-4 section-2-box">
+              <img style="height: 100%; width: 100%" src="../image/prt2.png" />
+              <small><em>Unplug power cord</em></small>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-4 section-2-box">
+              <img style="height: 100%; width: 100%" src="../image/key2.png" />
+              <small><em>Unplug USB cable</em></small>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-4 section-2-box">
+              <img style="height: 100%; width: 100%" src="../image/key1.png" />
+              <small><em>Unplug PS2 and VGA cable</em></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 3 end Procedure -->
+
+    <!-- Content 4 start Step 2: Open the case -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 2: Open the case</h5>
+          <p>
+            The computer comes with various types of cabinets. The methods of
+            opening the case are different based on the manufacturer.
+          </p>
+          <ul>
+            <li>
+              To open the case, first remove the screws of the left side cover
+              and slide the side cover.
+            </li>
+            <li>
+              Pull the latch to release the side panel. Then lift the side cover
+              out from the chassis.
+            </li>
+          </ul>
+          <p style="text-align: justify; text-indent: 60px">
+            To remember connectivity of internal cables, take the photographs of
+            internal circuitry. It will help to assemble back the system.
+          </p>
+        </div>
+        <div class="row justify-content-center text-center p-4">
+          <div class="col-md-4 section-2-box">
+            <img style="height: 100%; width: 100%" src="../image/open1.png" />
+            <small><em>Unscrew cabinet</em></small>
+          </div>
+          <div class="col-md-4 section-2-box">
+            <img style="height: 100%; width: 100%" src="../image/open2.png" />
+            <small><em>Pull cabinet side cover</em></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 4 end Step 2: Open the case -->
+
+    <!-- Content 5 start Step 3: Disconnect all the connectors -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 3: Disconnect all the connectors</h5>
+          <p>
+            Disconnect all the connectors connected to the motherboard. These
+            include SATA power cable and data cable of HDD as well as SATA cable
+            of optical drive.
+          </p>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/con3.png" />
+              <small><em>Unplug 15-pin connector from HDD</em></small>
+            </div>
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/con4.png" />
+              <small><em>Unplug 7-pin connector from HDD</em></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 5 end Step 3: Disconnect all the connectors -->
+
+    <!-- Content 6 start Step 4: Remove the fan -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 4: Remove the fan</h5>
+          <p>
+            Remove the fan now. Most computers have two fans—the system fan and
+            CPU fan. The system fan is located at the back side of the computer
+            to blow air into the computer. The CPU fan is located on top of the
+            CPU heat sink. The fans and its connectors are labelled with their
+            names.
+          </p>
+          <p style="text-align: justify; text-indent: 60px">
+            To remove the system fan, first, disconnect its connector from the
+            motherboard. Then, unscrew it from the outside of the back of the
+            case and lift the fan out of the system.
+          </p>
+          <p style="text-align: justify; text-indent: 60px">
+            To remove the CPU fan from the heat sink, first, disconnect its
+            connector from the motherboard. Then remove the four screws securing
+            it.
+          </p>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/heat3.png" />
+              <p>
+                <small><em>Unscrew fan</em></small>
+              </p>
+            </div>
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/heat2.png" />
+              <small><em>Remove the system fan</em></small>
+            </div>
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/heat1.png" />
+              <small><em>Unscrew heat sink</em></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 6 end Step 4: Remove the fan -->
+
+    <!-- Content 7 start Step 5: Remove the power supply -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 5: Remove the power supply</h5>
+          <p>
+            The power supply is connected to the motherboard by a 20-pin
+            connector and 4-pin connector. It is also connected to hard disk
+            drive and the optical drive. Firstly, disconnect hard disk drive and
+            the optical drive connectors from the motherboard.
+          </p>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/pow1.png" />
+              <p>
+                <small><em>Unplug 20-pin ATX</em></small>
+              </p>
+            </div>
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/pow2.png" />
+              <small
+                ><em
+                  >Unplug 4-pin AUX power connector from power connector from
+                  motherboard</em
+                ></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 7 end Step 5: Remove the power supply -->
+
+    <!-- Content 8 start Step 6: Removing HDD and optical drive -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 6: Removing HDD and optical drive</h5>
+          <ul>
+            <li>
+              Disconnect the power cable of the hard disk and optical drive
+              which connects to the SMPS.
+            </li>
+            <li>
+              Remove the screws that secure the power supply unit to the
+              chassis.
+            </li>
+            <li>Carefully lift the power supply out of the chassis.</li>
+            <li>
+              Remove the SATA cable connecting to the HDD and motherboard.
+            </li>
+            <li>
+              Then unscrew the four screws securing it in place and pull out the
+              HDD.
+            </li>
+            <div class="row justify-content-center text-center">
+              <div class="col-md-4 section-2-box p-4">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="../image/con5.png"
+                />
+                <p>
+                  <small><em>Unplug SATA cables from motherboard</em></small>
+                </p>
+              </div>
+              <div class="col-md-4 section-2-box p-4">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="../image/con3.png"
+                />
+                <small
+                  ><em>Unplug power cable from optical drive and HDD</em></small
+                >
+              </div>
+              <div class="col-md-4 section-2-box p-4">
+                <img style="height: 100%; width: 100%" src="../image/hd2.png" />
+                <small><em>Unscrewing of HDD/Remove the screws</em></small>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="col-md-4 section-2-box p-4">
+                <img
+                  style="height: 100%; width: 100%"
+                  src="../image/install1.png"
+                />
+                <p>
+                  <small
+                    ><em>Unscrew the SMPS and remove it from cabinet</em></small
+                  >
+                </p>
+              </div>
+              <div class="col-md-4 section-2-box p-4">
+                <img style="height: 100%; width: 100%" src="../image/hd1.png" />
+                <small><em>Remove HDD</em></small>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Content 8 end Step 6: Removing HDD and optical drive -->
+
+    <!-- Content 9 start Step 7: Remove RAM (random access memory) modules -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">
+            Step 7: Remove RAM (random access memory) modules
+          </h5>
+          <p>
+            RAM allows for the transfer of information to and from the CPU.
+            Computer runs fast with more RAM. Most computers have four RAM
+            slots, and two RAM chips.
+          </p>
+          <p>
+            To remove the RAM, push down on both tabs holding the RAM in place,
+            which are located at both ends of the RAM. It will cause the module
+            to pop up for easy removal.
+          </p>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/mem1.png" />
+              <p>
+                <small><em>Unplug the RAM from slot</em></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 9 end Step 7: Remove RAM (random access memory) modules -->
+
+    <!-- Content 10 start Step 8: Remove expansion cards -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 8: Remove expansion cards</h5>
+          <p>
+            The modern motherboards are integrated with the audio, video and
+            network cards. However, if your computer has the expansion card as
+            shown in Figure 12.54, insert into the expansions slot to increase
+            the functionality. The expansion card is screwed with a single screw
+            on top of expansion card slot.
+          </p>
+          <ul>
+            <li>
+              To remove the expansion cards, disconnect the cables attached to
+              it.
+            </li>
+            <li>Remove the screws securing the card in the slot.</li>
+            <li>Carefully take out the card from the slot.</li>
+          </ul>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/vc1.png" />
+              <p>
+                <small><em>Expansion card</em></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 10 end Step 8: Remove expansion cards -->
+
+    <!-- Content 11 start Step 9: Remove motherboard -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 9: Remove motherboard</h5>
+          <p>
+            Every part of the computer is attached to the motherboard. The CPU,
+            RAM, and expansion cards are directly attached to the motherboard.
+          </p>
+          <p style="text-align: justify; text-indent: 60px">
+            To remove the motherboard, disconnect all the cables from the
+            motherboard. It has seven screws holding it to the frame. Remove
+            these screws and then lift the motherboard out of the frame.
+          </p>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 section-2-box p-4">
+              <img style="height: 100%; width: 100%" src="../image/mobo1.png" />
+              <p>
+                <small><em>Removing the motherboard</em></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content 11 end Step 9: Remove motherboard -->
+
+    <!-- Content 12 start Step 10: Reassemble the components -->
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5 class="mt-5">Step 10: Reassemble the components</h5>
+          <ul>
+            <li>Identify every component and take its photograph.</li>
+            <li>
+              After identification of each component, put all the components
+              back in their place and ensure that all cables and wires are
+              connected at the right place to avoid further troubleshooting.
+            </li>
+            <li>Close the case and put the screws back in their place.</li>
+            <li>
+              Lastly, connect every external device such as the keyboard, mouse,
+              monitor, etc., and turn on the computer to see everything is
+              working fine after assembled.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Content 12 end Step 10: Reassemble the components -->
+
+    <!-- Button -->
+    <div class="container-fluid mt-3 mb-3">
+      <div class="d-flex justify-content-between mb-3">
+        <div class="p-2">
+          <a href="ICT.assembly.html" type="button" class="btn btn-primary"
+            >PC Assembly</a
+          >
+        </div>
+
+        <div class="p-2">
+          <a
+            href="../quiz/ICT.disassembly_quiz.html"
+            type="button"
+            class="btn btn-primary"
+            >Start Quiz</a
+          >
+        </div>
+
+        <div class="p-2">
+          <a href="ICT.networking.html" type="button" class="btn btn-primary"
+            >Computer Networking Basics</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section Starts -->
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left side-->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <!-- Right side -->
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About
+                ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you
+                to learn and to test your knowledge about the fundamentals of
+                selected courses such as Mathematics, ICT, and EIM.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a
+                  style="text-decoration: none"
+                  href="#!"
+                  class="text-reset"
+                ></a>
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+
+    <!-- External script -->
+    <script type="text/javascript" src="../navbar_script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

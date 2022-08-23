@@ -1,0 +1,56 @@
+body .content {
+  margin-top: 10%;
+}
+body .header {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+body .left-title {
+  width: 80px;
+  color: white;
+}
+body .right-title {
+  width: 150px;
+  text-align: right;
+  float: right;
+  color: white;
+}
+body .quiz-body {
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+body .option-block-container {
+  margin-top: 20px;
+  max-width: 420px;
+}
+body .option-block {
+  padding: 10px;
+  background: transparent;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+body .result-question {
+  font-weight: bold;
+}
+body .c-wrong {
+  margin-left: 20px;
+  color: #f00;
+}
+body .c-correct {
+  margin-left: 20px;
+  color: green;
+}
+body .last-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+body .res-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}/*# sourceMappingURL=quiz_style.css.map */

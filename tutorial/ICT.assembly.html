@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>ICT PC Assembly</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+  </head>
+
+<body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            /><p id="logo-txt"><span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span></p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                style="height: 50px; width: 50px"
+                src="../image/logo-modified.png"
+                alt="logo"
+              />
+            </a>
+            <span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight1"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight2"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Tutorial SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="Mathematics.sets.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="Mathematics.venn.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Tutorial SideBar Section End -->
+<!-- ICT Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight1"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Tutorials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="ICT.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="ICT.tools.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="ICT.assembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="ICT.disassembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+              <hr>
+              <li><a href="ICT.networking.html" style="color: black;line-height: 0 ;font-size: .9rem;">Computer Networking Basics</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Tutorial SideBar Section Ends -->
+<!-- EIM Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="EIM.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="EIM.materials.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="EIM.types.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight3"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight4"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight5"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Quizzes SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+            >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="../quiz/Mathematics.sets_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="../quiz/Mathematics.venn_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Quizzes SideBar Section End -->
+<!-- ICT Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Quizzes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="../quiz/ICT.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.tools_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.assembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.disassembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Quizzes SideBar Section Ends -->
+<!-- EIM Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="../quiz/EIM.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.materials_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.types_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+<!--Quizzes link ends-->
+<!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+<!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img 
+            style="width: 30px; height: 30px; cursor: pointer;"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+<!-- Navigation bar ends-->
+
+    <!-- Content 1 start -->
+    <div class="section-2-container section-container section-container-gray-bg pt-5" id="section-2" style="margin-top: 10vh;">
+        <div class="row">
+          <div class="col section-2 section-description wow fadeIn"></div>
+        </div>
+        <div class="container">
+          <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+            PC Assembly
+          </div>
+          <div class="row">
+            <div class="col-md-5 section-2-box wow fadeInUp">
+              <img style="height: 400px; width: 400px;" src="../image/assem.JPG" alt="about-us" class="rounded w-100 mt-5 p-2 pb-3"/>
+            </div>
+            <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+                <h3 class="mt-5" style="margin-left: 10%"></h3>
+                <p style="text-align: justify; text-indent: 60px; margin-top: 2rem" class="p-2">
+                    Computer assembly is an essential job of a computer installation technician. The technician has to work in a logical, methodical manner while handling various computer components and peripherals. The technician can improve the computer assembly skills with practice. Computer assembly is a process in which all the internal components required for the computer system are fitted so as to make the computer functional. There is a proper sequence of attachment of each and every component into the computer system. To establish proper connectivity, one has to use the tools. Proper handling of tools is also required by the technician. It is required that students learn the steps of installation of each component. The main component involves installing CPU, motherboard, drives, video, graphics card, sound card, modem and adapter, and connectors, and system panel connector. In this Chapter, we will understand the step by step process of assembling a computer. It also covers the need for adequate system resources to efficiently run the customer’s hardware and software.</p>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 1 end -->
+
+      <!-- Content 2 start -->
+      <div class="section-2-container section-container section-container-gray-bg pt-5" id="section-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+              <h3 class="mt-5" style="margin-left: 10%">Computer Assembly</h3><br>
+              <ul>
+                <p>As we know, computer assembly is a systematic process. First, arrange the computer parts. The sequence for assembly and working of the computer listed below is as:</p>
+                <li>Open the case.</li>
+                <li>Install the power supply.</li>
+                <li>Attach the components to the motherboard.</li>
+                <li>Install the motherboard.</li>
+                <li>Install internal drives.</li>
+                <li>Connect all internal cables.</li>
+                <li>Install motherboard power connections.</li>
+                <li>Connect external cables to the computer.</li>
+                <li>Boot the computer for the first time.</li>
+              </ul>
+            </div>
+            <div class="col-md-5 section-2-box wow fadeInUp">
+              <img style="height: 400px; width: 400px;" class="rounded w-100 mt-5 p-2" src="https://thumbs.dreamstime.com/b/assembling-pc-personal-computer-hardware-hands-motherboard-hard-drive-cpu-fan-graphic-card-memory-screwdriver-case-vector-89084640.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 2 end -->
+      
+      <!-- Content 3 start -->
+      <div class="container">
+        <div class="row">
+            <div>
+                <p>Prepare the workspace before starting installation of the computer. There should be adequate lighting, good ventilation, and a comfortable room temperature. The workbench or table should be accessible from all sides. Avoid cluttering the surface of the workbench or table with tools and computer components. An anti static mat on the table will help to prevent physical and electrostatic discharge (ESD) damage to equipment. Small containers can be used to hold small screws and other parts as they are being removed.</p>
+                <h3>Material Required</h3>
+                <ul>
+                  <li>Computer case, with power supply installed</li>
+                  <li>Motherboard</li>
+                  <li>CPU</li>
+                  <li>Heat sink/fan assembly</li>
+                  <li>Thermal compound</li>
+                  <li>RAM module(s)</li>
+                  <li>Motherboard standoffs and screws</li>
+                  <li>Anti‑static wrist strap and anti-static mat</li>
+                  <li>Tool kit</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <!-- Content 3 end -->
+
+      <!-- Content 4 start Step 1: Open the case -->
+      <div class="container mt-3">
+        <div class="row">
+          <div class="mt-5">
+            <h3>Procedure</h3>
+            <h5 class="mt-3">Step 1: Open the case</h5>
+            <ul>
+              <li>The first step in assembling a computer is to open the computer case. There are different methods for opening cases.</li>
+              <li>The computer comes with various types of cabinets. The method for opening the case is different based on the manufacturer.</li>
+              <li>To open the case, first remove the screws of the left side cover and slide the side cover.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/open1.png">
+                <small><em>Unscrew cabinet</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/open2.png"/>
+                  <small><em>Pull cabinet side cover</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/open3.png">
+                <small><em>Unscrew bolts</em></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 4 end Step 1: Open the case -->
+
+      <!-- content 5 start Step 2 : Install the power supply -->
+      <div class="container mt-3">
+        <div class="row">
+          <div class="mt-5">
+            <h5>Step 2 : Install the power supply</h5>
+            <p>The next step is to install a power supply. There are usually four screws that attach the power supply to the case. Power supplies have fans that can vibrate and loosen screws that are not secured. When installing a power supply, make sure that all of thescrews are used and that they are properly tightened.</p>
+            <ul>
+              <li>Insert the power supply into the case.</li>
+              <li>Align the holes in the power supply with the holes in the case.</li>
+              <li>Secure the power supply to the case using the proper screws.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-1">
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/install1.png">
+                <small><em>Insert power supply</em></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 5 end Step 2 : Install the power supply -->
+
+      <!-- Content 6 start Step 3: Attach the components to motherboard -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-5">
+            <h5>Step 3: Attach the components to motherboard</h5>
+            <p>The motherboard has to be prepared before its installation. To prepare the motherboard, you first need to install the CPU, then the heat sink on the CPU and CPU fan.</p>
+          </div>
+
+          <div class="mt-3">
+            <h6><em>CPU</em></h6>
+            <p>The CPU and motherboard are sensitive to electrostatic discharge. So place them on a grounded anti-static mat and wear an anti-static wrist strap while handling the CPU. When handling a CPU, do not touch the CPU contacts at any point. The CPU is secured to the socket on the motherboard with a locking assembly.</p>
+            <p style="text-align: justify; text-indent: 60px;">Thermal compound which is used to conduct heat away from the CPU is applied on the top of CPU. In case of an old CPU, first clean the top of the CPU, and then apply the thermal compound. Clean the top of the CPU and the base of the heat sink with isopropyl alcohol and a lint‑free cloth. This removes the old thermal compound. Then apply a new layer of thermal compound.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/attach1.png">
+                <small><em>Installing CPU on the motherboard</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/attach2.png"/>
+                  <small><em>Applying thermal compound on CPU</em></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <h6><em>Heat sink and fan assembly</em></h3>
+            <p>Heat sink and fan assembly is a two-part cooling device. The heat sink draws heat away from the CPU. The fan moves the heat away from the heat sink. The assembly has a 3-pin power connector.</p>
+            <p style="text-align: justify; text-indent: 60px;">To install a CPU and heat sink and fan assembly, follow these steps:</p>
+            <ul>
+              <li>First, open the CPU load plate. Align the CPU orientation so that the notches on the CPU are aligned with the orientation keys on CPU socket.</li>
+              <li>Place the CPU gently into the socket.</li>
+              <li>Close the CPU load plate.</li>
+              <li>Close the load lever.</li>
+              <li>Apply a small amount of thermal compound to 
+                top of the CPU.</li>
+              <li>Screw the CPU fan on the heat sink.</li>
+              <li>Align the heat sink and fan assembly with the holes on the motherboard.</li>
+              <li>Place the assembly onto the CPU socket carefully.</li>
+              <li>Screw the assembly on the motherboard.</li>
+              <li>Connect the assembly power cable to the CPU fan connector on the motherboard.</li>
+            </ul>
+            <div>
+              <div class="row justify-content-center text-center p-4">
+                <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/heat1.png">
+                  <small><em>Screw the heat sink</em></small>
+                </div>
+                <div class="col-md-4 section-2-box">
+                    <img style="height: 100%; width: 100%;" src="../image/heat2.png"/>
+                    <small><em>Screw the heat sink fan assembly</em></small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <h6><em>Installation of RAM</em></h6>
+            <p>It is better to install the RAM first on the motherboard and then fix the motherboard in the case. To install RAM first ensure its compatibility with the motherboard. If DDR3 is mentioned on the motherboard, then DDR3 RAM may be fixed in the memory slot. To install RAM, follow these steps.</p>
+            <ul>
+              <li> Press down the side locks of the memory slot. Align the notches on the RAM module to the keys in the slot and press down on both ends of RAM module until the side lock gets locked.</li>
+              <li>Make sure that the side tabs have locked the RAM module.</li>
+              <li>Repeat the above steps to install additional RAM modules.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/mem1.png">
+                <small><em>Memory slot</em></small>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!-- Content 6 end Step 3: Attach the components to motherboard -->
+
+      <!-- Content 7 start Step 4: Install motherboard -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 4: Install motherboard</h5>
+            <p>After preparing the motherboard, you can install the computer case, as shown in Figure. Plastic and metal standoffs are used to mount the motherboard and to prevent it from touching the metal portions of the case. To install the motherboard, follow these steps:</p>
+            <ul>
+              <li>Lay the motherboard over the standoffs to mount it on the holes.</li>
+              <li>Align the screw holes of the motherboard with the standoffs.</li>
+              <li>Then screw the board using a standard screwdriver.</li>
+              <li>Tighten all the motherboard screws.</li>
+              <li>Connect the 4-pin ATX power connector from the power supply to the motherboard.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/mobo1.png">
+                  <small><em>Lay the motherboard over the standoffs</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/mobo2.png">
+                  <small><em>Tighten all the motherboard screws</em></small>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Content 7 end Step 4: Install motherboard -->
+
+      <!-- Content 8 start Step 5: Install internal drives -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 5: Install internal drives</h5>
+            <h6><em>Hard drive</em></h6>
+            <p>The hard drive is the device which stores all the data. It is 3.5 inch wide and needs to be mounted so that access to the cable connections on the back is gained. Drives that are installed in internal bays are called internal drives. A hard disk drive (HDD) is an example of an internal drive. To install HDD, follow these steps:</p>
+            <ul>
+              <li>Position the HDD so that it aligns with the 3.5 inch drive bay.</li>
+              <li>Insert the HDD into the drive bay so that the screw holes in the drive line up with the screw holes in the case.</li>
+              <li> Secure the HDD to the case using proper screws.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/hd1.png">
+                  <small><em>Insert hard disk</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/hd2.png">
+                  <small><em>Tighten screws of HDD</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Optical drive</em></h6>
+            <ul>
+              <li>Position the optical drive so that it aligns with the 5.25 inch drive bay.</li>
+              <li> Insert the optical drive into the drive bay so that the optical drive screw holes align with the screw holes in the case.</li>
+              <li>Secure the optical drive to the case using the proper screws.</li>
+              <li>Connect the power cable coming from the SMPS to the power socket of optical drive.</li>
+              <li>Connect SATA data cable from optical drive socket to the motherboard socket.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/cd1.png">
+                  <small><em>Insert optical drive</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/cd2.png">
+                  <small><em>Tighten screws of optical drive</em></small>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Content 8 end Step 5: Install internal drives -->
+
+      <!-- Content 9 start Step 6: Connect all internal cables -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 6: Connect all internal cables</h5>
+            <p>Power cables are used to distribute electricity from the power supply to the motherboard and other motherboard and storage devices, such as hard drives.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/con1.png">
+                  <small><em>Connect cable IN to HDD</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/con2.png">
+                  <small><em>Press cable socket for proper connection</em></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 9 end Step 6: Connect all internal cables -->
+
+      <!-- Content 10 start Step 7: Install motherboard power connections -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 7: Install motherboard power connections</h5>
+            <p>Just like other components, motherboards require power to operate. The Advanced Technology eXtended (ATX) main power connector will have either 20 or 24 pins. The power supply may also have a 4-pin or 6-pin auxiliary (AUX) power connector that connects to the motherboard. A 20-pin connector will work in a motherboard with a 24-pin socket. Follow these steps for motherboard power cable installation:</p>
+            <ul>
+              <li>Align the 20-pin ATX power connector with the socket on the motherboard.</li>
+              <li>Gently press down on the connector until the clip clicks into place.</li>
+              <li>Align the 4-pin AUX power connector with the socket on the motherboard.</li>
+              <li>Gently press down on the connector until the clip clicks into place.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/pow1.png">
+                  <small><em>Plug-in 20-pin ATX power connector to motherboard</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/pow2.png">
+                  <small><em>Plug-in 4-pin AUX power connector to motherboard</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>SATA power connectors</em></h6>
+            <p>SATA power connectors use a 15-pin connector. Serial advanced technology attachment (SATA) power connectors are used to connect to hard disk drives, optical drives, or any devices that have a SATA power socket.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/con3.png">
+                  <small><em>Plug-in 15-pin connector to HDD</em></small>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Content 10 end Step 7: Install motherboard power connections -->
+
+      <!-- Content 11 start Step 8: Connect external cables to the computer -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 8: Connect external cables to the computer</h5>
+            <p>Setting up the computer system involves the complete process of establishing the proper connectivity of various parts of the computer system—input and output devices, connectivity of computer with the surge power supply. Reattach the side panels to the case. The process of connecting the external cables given below:</p>
+          </div>
+
+          <div class="mt-3">
+            <h6><em>Locate the monitor cable</em></h6>
+            <p>Locate the two power cable and one VGA cable or monitor cable. The VGA cable is used to connect to monitor and another point on to the back side of the cabinet. If you are having trouble finding these, refer to the instruction manual of or the computer. You can skip to ‘Step 3’, in case of all-in-one computer that is built into the monitor.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/cable.png">
+                  <small><em>Display cable and ports</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Connecting monitor</em></h6>
+            <p>Connect one end of the cable to the monitor port on the back of the computer case and the other end to the monitor. In case of VGA cable tighten the screws on the monitor cable to secure it.</p>
+            <p style="text-align: justify; text-indent: 60px;">The cables will only fit in a specific way. If the cable does not fit, do not force it, otherwise the connectors might get damaged. Make sure the plug aligns with the port, then connect it. So, first identify all the cables, ports, and connectors.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/cab1.png">
+                  <small><em>Connecting VGA or monitor cable to the port on back panel of computer</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Connecting keyboard</em></h6>
+            <p>Unpack the keyboard and determine whether it uses a USB (rectangular) connector or a PS/2 (round) connector. If they have colour coded plugs that are light green and lavender, plug them into the corresponding colour-coded ports, it is more likely if they use round PS/2 connectors. If it uses a USB connector, plug it into any of the USB ports on the back of the computer.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/key1.png">
+                  <small><em>Connecting keyboard in PS/2 port</em></small>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/key2.png">
+                  <small><em>Connecting keyboard in USB port</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Connecting mouse</em></h6>
+            <p>Unpack the mouse and determine whether it uses a USB or PS/2 connector. If it uses a USB connector, plug it into any of the USB ports on the back of the computer. If it uses a PS/2 connector, plug it into the green mouse port on the back of the computer. In case of wireless mouse or keyboard, connect a Bluetooth dongle (USB adapter) in one of the USB ports of the computer. However, it is not necessary to connect an adapter for the modern computers which have built-in Bluetooth.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/mice1.png">
+                  <small><em>Connecting mouse (a) in PS/2 port (b) in USB port</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Connecting headphones or speakers, and microphone</em></h6>
+            <p>Connect the external speakers or headphones, to computer’s audio port (either on the front or back of the computer case). The modern computers have colour-coded ports. Speakers or headphones connect to the green port, and microphones connect to the pink port. The blue port is the line-in, which can be used with other types of devices. They can be also connected to the USB port. Some speakers, headphones, and microphones have USB connectors instead of the usual audio plug. Connect them to any USB port. Some computers have speakers or microphones built into the monitor.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/hp1.png">
+                  <small><em>Connecting speakers or headphones, and microphone</em></small>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="mt-5">
+            <h6><em>Connect the computer to a power supply</em></h6>
+            <p>Locate the two power supply cables that came with the computer. Plug the first power supply cable into the back of the computer case and then into a surge protector. Then, using the other cable, connect the monitor to the surge protector. It is better to use an uninterruptable power supply (UPS), which acts as a surge protector and provides the back up when the power goes off.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/main.png">
+                  <small><em>Power connection (CPU through UPS)</em></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <h6>Ups (uninterruptible power supply)</h6>
+            <p>While working on computer, its power supply should not be interrupted. UPS is like a power bank which gives power to the computer system. So make sure to plug power cable of monitor and cabinet into the UPS power output socket. Ensure the connection is proper.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/ups.png">
+                  <small><em>UPS</em></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <h6><em>Plug the surge protector</em></h6>
+            <p>Plug the surge protector into a wall outlet after finishing the connectivity of all the parts and peripherals, plug the surge protector into the main power supply. You may also need to turn on the surge protector if it has a power switch.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/ps1.png">
+                  <small><em>Plug the surge protector into a wall outlet</em></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <h6><em>Connecting printer, scanner, webcam</em></h6>
+            <p>To connect the peripherals such as printer, scanner, webcam, identify the respective connectors of the cable and port on the cabinet. Plug in the connectors of these peripherals in respective ports. Correctly plugging in will recognise the peripherals as they are plug and play devices.</p>
+            <p style="text-align: justify; text-indent: 60px;">It may be required to install their software drivers for them to function properly. Use the instructions included with the device to install them if necessary. Installation of peripherals is optional, and it be can added at any time; it may not be required during the initial setup of your computer.</p>
+            <ul>Checklist the following before starting the computer :
+              <li>VGA cable of monitor is connected to the cabinet or not.</li>
+              <li>Power cable of monitor and cabinet has been plugged into the UPS power output socket. Make sure monitor is connected to the power supply or not.</li>
+              <li> Keyboard and mouse both are connected to their proper ports.</li>
+            </ul>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/prt1.png">
+              </div>
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/prt2.png">
+              </div>
+              <small><em>Proper connectivity of parts of computer system</em></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content 11 end Step 8: Connect external cables to the computer -->
+
+      <!-- Content 12 start Step 9: Starting the computer -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mt-3">
+            <h5>Step 9: Starting the computer</h5>
+            <p>To start the computer, it is necessary to follow the correct sequence to start up. Now push the power button on the CPU to start the computer. Practically when we start our vehicle, we always check that the light or air conditioner (AC) is off. Otherwise it will consume more power compared to normal start up.</p>
+            <p style="text-align: justify; text-indent: 60px;">Always remember that the first step is to push power button of the CPU than the monitor’s. Because the monitor consumes more electricity when powered. An operating system or system software like Window or Linux will start loading and the home window will appear. Now your computer is ready to use.</p>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/os1.png">
+                  <small><em>Starting window 
+                    of Windows 10,Windows 7 and Ubuntu</em></small>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center p-4">
+              <div class="col-md-4 section-2-box">
+                  <img style="height: 100%; width: 100%;" src="../image/osh1.png">
+                  <small><em>Home window of Windows 10</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/osh2.png">
+                <small><em>Home window of Windows 7</em></small>
+              </div>
+              <div class="col-md-4 section-2-box">
+                <img style="height: 100%; width: 100%;" src="../image/osh3.png">
+                <small><em>Home window of Ubuntu</em></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button -->
+      <div class="container-fluid mt-3 mb-3">
+        <div class="d-flex justify-content-between  mb-3">
+          <div class="p-2 "><a href="ICT.tools.html" type="button" class="btn btn-primary">Computer Tools and Safety</a></div>
+
+          <div class="p-2 "><a href="../quiz/ICT.assembly_quiz.html" type="button" class="btn btn-primary">Start Quiz</a></div>
+
+          <div class="p-2 "><a href="ICT.disassembly.html" type="button" class="btn btn-primary">ICT Disassembly</a></div>
+        </div>
+      </div>
+
+    <!-- Footer Section Starts -->
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left side-->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <!-- Right side -->
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you to learn and to test your knowledge about the fundamentals of selected courses such as Mathematics, ICT, and EIM. 
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="#!" class="text-reset"
+                  ></a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+
+    <!-- External script -->
+    <script type="text/javascript" src="../navbar_script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
+</html>

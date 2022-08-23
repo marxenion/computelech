@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>Mathematics Sets Basics</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+  </head>
+  
+
+
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            /><p id="logo-txt"><span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span></p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                style="height: 50px; width: 50px"
+                src="../image/logo-modified.png"
+                alt="logo"
+              />
+            </a>
+            <span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight1"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight2"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Tutorial SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="Mathematics.sets.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="Mathematics.venn.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Tutorial SideBar Section End -->
+<!-- ICT Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight1"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Tutorials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="ICT.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="ICT.tools.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="ICT.assembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="ICT.disassembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+              <hr>
+              <li><a href="ICT.networking.html" style="color: black;line-height: 0 ;font-size: .9rem;">Computer Networking Basics</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Tutorial SideBar Section Ends -->
+<!-- EIM Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="EIM.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="EIM.materials.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="EIM.types.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight3"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight4"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight5"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Quizzes SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+            >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="../quiz/Mathematics.sets_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="../quiz/Mathematics.venn_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Quizzes SideBar Section End -->
+<!-- ICT Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Quizzes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="../quiz/ICT.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.tools_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.assembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.disassembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Quizzes SideBar Section Ends -->
+<!-- EIM Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="../quiz/EIM.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.materials_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.types_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+<!--Quizzes link ends-->
+<!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+<!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img 
+            style="width: 30px; height: 30px; cursor: pointer;"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+<!-- Navigation bar ends-->
+
+    <!-- Sets Content -->
+      <div class="container" style="margin-top: 20vh;">
+        <div class="row">
+          <div class="col section-2 section-description wow fadeIn"></div>
+        </div>
+        <div class="container ">
+          <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+            Sets
+          </div>
+        
+        <!-- Definition -->
+        <div class="row" style="margin-top: 5vh;">
+          <div class="col-md-8 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5">Definition</h3>
+            <p
+              style="text-align: justify; text-indent: 60px;"
+              class="p-2"
+            >
+            What is a set? Well, simply put, it's a <b>collection</b>.
+            </p>
+            <p
+              style="text-align: justify; text-indent: 60px;"
+              class="p-2"
+            >
+            First we specify a common property among "things" (we define this word later) and then we gather up all the "things" that have this common property.
+            </p>
+            <p
+              style="text-align: justify; text-indent: 60px;"
+              class="p-2"
+            >
+            For example, the items you wear: hat, shirt, jacket, pants, and so on. I'm sure you could come up with at least a hundred. This is known as a set.
+            </p>
+            <p
+              style="text-align: justify; text-indent: 60px;"
+              class="p-2"
+            >
+            Or another example is types of fingers. This set includes index, middle, ring, and pinky. So it is just things grouped together with a certain property in common.
+            </p>
+          </div>
+          
+          <div class="col-md-4 section-2-box wow" id="rounded1">
+            <img
+              src="https://www.mathsisfun.com/sets/images/set-clothes.svg"
+              alt="about-us"
+              class=" w-100 mt-5 p-2"
+            />
+          </div>
+        </div>
+
+        <!-- Notation -->
+        <div class="row">
+          <h3 class="mt-5">Notation</h3>
+            <img src="https://www.mathsisfun.com/sets/images/set.svg" alt="not1" class="d-block m-auto"
+              style="width: fit-content;"/>
+            <p class="col-12 text-center p-2"
+            style="font-size: 25px;">
+            <i>The curly brackets { } are sometimes called "set brackets" or "braces".</i>
+            </p>
+            <p class="col-12 p-2">This is the notation for the two previous examples:</p>
+            <p class="col-12 mb-0" 
+              style="text-indent: 60px;">
+            <b>{socks, shoes, watches, shirts, ...}</b>
+            </p>
+            <p class="col-12 mt-0" 
+              style="text-indent: 60px;">
+            <b>{index, middle, ring, pinky}</b>
+            </p>
+            <p class="col-12 p-2">Notice how the first example has the "..." (three dots together).</p>
+            <p class="col-12 text-center p-2"
+            style="font-size: 25px;"><i>The three dots ... are called an ellipsis, and mean "continue on".</i>
+            </p>
+            
+            <p class="col-12 p-2">So that means the first example continues on ... for infinity.</p>
+            <p class="col-12 p-2">(OK, there isn't really an infinite amount of things you could wear, but I'm not entirely sure about that! After an hour of thinking of different things, I'm still not sure. So let's just say it is infinite for this example.)</p>
+            <p class="col-12 p-2">So:</p>
+            <p class="mb-0"
+              style="text-indent: 60px;">
+            The first set <b>{socks, shoes, watches, shirts, ...}</b> we call an <b>infinite set</b>,</p>
+            <p class="mt-0"
+              style="text-indent: 60px;">
+            the second set <b>{index, middle, ring, pinky}</b> we call a <b>finite set</b>.</p>
+            <p class="col-12 p-2">But sometimes the "..." can be used in the middle to save writing long lists:</p>
+        </div>
+
+        <!-- Numerical Sets -->
+        <div class="row">
+          <h3 class="mt-5">Numerical Sets</h3>
+          <p class="col-12 p-2">
+            So what does this have to do with mathematics? When we define a set, all we have to specify is a common characteristic. Who says we can't do so with numbers?
+          </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">
+            Set of even numbers: {..., −4, −2, 0, 2, 4, ...}
+           </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">
+            Set of odd numbers: {..., −3, −1, 1, 3, ...}
+          </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">
+            Set of prime numbers: {2, 3, 5, 7, 11, 13, 17, ...}
+          </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">
+            Positive multiples of 3 that are less than 10: {3, 6, 9}
+          </p>
+          <p class="col-12 p-2">And so on. We can come up with all different types of sets.</p>
+          <p class="col-12 p-2">We can also define a set by its properties, such as <b>{x|x>0}</b> which means "the set of all x's, such that x is greater than 0".</p>
+          <p class="col-12 p-2">And we can have sets of numbers that have no common property, they are just defined that way. For example:</p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">{2, 3, 6, 828, 3839, 8827}
+          </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">{4, 5, 6, 10, 21}
+          </p>
+          <p class="col-12 m-0"
+            style="text-indent: 60px;">{2, 949, 48282, 42882959, 119484203}
+          </p>
+          <p class="col-12 p-2">Are all sets that I just randomly banged on my keyboard to produce.</p>
+        </div>
+
+        <!-- Significance of Sets -->
+        <div class="row">
+          <h3 class="mt-5">Significance of Sets</h3>
+          <p class="col-12 p-2"
+            style="text-align: justify; text-indent: 60px;">Sets are the fundamental property of mathematics. Now as a word of warning, sets, by themselves, seem pretty pointless. But it's only when we apply sets in different situations do they become the powerful building block of mathematics that they are. Math can get amazingly complicated quite fast. Graph Theory, Abstract Algebra, Real Analysis, Complex Analysis, Linear Algebra, Number Theory, and the list goes on. But there is one thing that all of these share in common: <b>Sets</b>.
+          </p>
+        </div>
+
+        <!-- Universal Set-->
+        <div class="row">
+          <h3 class="mt-5">Universal Set</h3>
+          <img src="https://www.mathsisfun.com/sets/images/star.jpg" alt="about-us" class="d-block col-2 m-auto"
+            style="width: fit-content;"/>
+          <p class="col-10 p-2"
+            style="text-align: justify; text-indent: 60px;">At the start we used the word "things" in quotes. We call this the universal set. It's a set that contains everything. Well, not exactly everything. Everything that is relevant to our question.
+          </p>
+          
+          <p class="col-12 p-2"
+            style="text-align: justify; text-indent: 60px;">In Number Theory the universal set is all the integers, as Number Theory is simply the study of integers. But in Calculus (also known as real analysis), the universal set is almost always the real numbers. And in complex analysis, you guessed it, the universal set is the complex numbers.
+          </p>
+          <img src="https://www.mathsisfun.com/sets/images/various-integers.svg" alt="random" class="p-2 d-block col-4 m-auto"
+          style="width: fit-content;"/>
+          <img src="https://www.mathsisfun.com/sets/images/various-reals.svg" alt="random" class="p-2 d-block col-4 m-auto"
+          style="width: fit-content;"/>
+          <img src="https://www.mathsisfun.com/sets/images/various-complex.svg" alt="random" class="p-2 d-block col-4 m-auto"
+          style="width: fit-content;"/>
+        </div>
+
+        <!-- Equality -->
+        <div class="row">
+          <h3 class="mt-5">Equality</h3>
+          <p class="col-12 p-2"
+            style="text-indent: 60px;">Two sets are equal if they have precisely the same members. Now, at first glance they may not seem equal, so we may have to examine them closely!</p>
+          <p class="col-12 p-2"><h4>Example:</h4> Are A and B equal where:</p>
+            <p class="col-12 p-2">A is the set whose members are the first four positive whole numbers</p>
+            <p class="col-12 p-2">B = {4, 2, 1, 3}</p>
+          <p class="col-12 p-2">Let's check. They both contain 1. They both contain 2. And 3, And 4. And we have checked every element of both sets, so: <b>Yes, they are equal!</b></p>
+          <p class="col-12 p-2">And the equals sign (=) is used to show equality, so we write:</p>
+          <p class="col-12 text-center p-2"
+          style="font-size: 25px;"><i>A = B</i>
+          </p>
+          <p class="col-12 p-2"><h4>Example:</h4> Are these sets equal?</p>
+            <p class="col-12 p-2">A is {1, 2, 3}</p>
+            <p class="col-12 p-2">B is {3, 1, 2}</p>
+          <p class="col-12 p-2">Yes, they are equal! They both contain exactly the members 1, 2 and 3. It doesn't matter where each member appears, so long as it is there. They both contain exactly the members 1, 2 and 3.</p>
+        </div>
+
+        <!-- Subsets -->
+        <div class="row">
+          <h3 class="mt-5">Subsets</h3>
+          <div class="clearfix">
+            <img src="https://www.mathsisfun.com/sets/images/subset.svg" class="col-md-6 float-md-end mb-3 ms-md-3 w-25" alt="...">
+          
+            <p>
+              When we define a set, if we take pieces of that set, we can form what is called a <b>subset</b>.
+            </p>
+            <ul>
+              <li><h4>Example:</h4></li>
+            <p>The set {1, 2, 3, 4, 5}</p>
+            </ul>
+            <p>
+              A <b>subset</b> of this is {1, 2, 3}. Another subset is {3, 4} or even another is {1}, etc. But {1, 6} is not a subset, since it has an element (6) which is not in the parent set.
+            </p>
+            
+            <p>In general: A is a subset of B if and only if every element of A is in B.
+            </p>
+          </div>
+          <div class="col-12">
+            <ul>
+              <li><h4>Example:</h4></li>
+            <p>Is A a subset of B, where A = {1, 3, 4} and B = {1, 4, 3, 2}?</p>
+          </ul>
+            <p>1 is in A, and 1 is in B as well. So far so good. 3 is in A and 3 is also in B. 4 is in A, and 4 is in B.</p>
+            <p>That's all the elements of A, and every single one is in B, so we're done.</p>
+            <p
+            style="text-align: center; font-size: 25px">Yes, A is a subset of B</p>
+            <p class="col-12 p-2">Note that 2 is in B, but 2 is not in A. But remember, that doesn't matter, we only look at the elements in A.</p>
+          </div>
+        </div>
+
+        <!-- Proper Subsets -->
+        <div class="row">
+          <h3 class="mt-5">Proper Subsets</h3>
+          <p class="col-12 p-2">If we look at the defintion of subsets and let our mind wander a bit, we come to a weird conclusion. Let A be a set. Is every element of A in A? Yes, of course.
+          </p>
+          <p class="col-12 p-2">So that means that A is a subset of A. It is a subset of itself! This doesn't seem very proper, does it? If we want our subsets to be proper we introduce (what else but) proper subsets:</p>
+          </div>
+          <p class="col-12 text-center p-2"
+            style="font-size: 25px;"><i>A is a proper subset of B if and only if every element of A is also in B, and there exists at least one element in B that is not in A.</i>
+          </p>
+          <p class="col-12 p-2">This little piece at the end is there to make sure that A is not a proper subset of itself: we say that B must have at least one extra element.</p>
+          <ul>
+            <li><h4>Example:</h4></li>
+            <p>{1, 2, 3} is a subset of {1, 2, 3}, but is not a proper subset of {1, 2, 3}.</p>
+            <li><h4>Example:</h4></li>
+            <p>{1, 2, 3} is a proper subset of {1, 2, 3, 4} because the element 4 is not in the first set</p>
+          </ul>
+          <p class="col-12 p-2">Notice that when A is a proper subset of B then it is also a subset of B.</p>
+
+        <!--More about Notation-->
+        <div class="row">
+          <h3 class="mt-5">More about Notation</h3>
+          <p class="col-12 p-2">When we say that A is a subset of B, we write A &#8838; B.</p>
+          <p class="col-12 p-2">Or we can say that A is not a subset of B by A &#8836; B ("A is not a subset of B")</p>
+          <p class="col-12 p-2">When we talk about proper subsets, we take out the line underneath and so it becomes A &#8838; B or if we want to say the opposite, A &#8836; B.</p>
+         </div>
+
+         <!-- Empty Sets and Subsets-->
+         <div class="row">
+           <h3 class="mt-5">Empty Sets and Subsets</h3>
+            <div class="col-sm-3">
+              <img src="https://www.mathsisfun.com/sets/images/keys-on-guitar.jpg" alt="null"/>
+            </div>
+            <div class="col-sm-9">
+              <div class="row">
+                <div class="col-12 col-sm-12">
+                  <p class="col-12 p-2">This is probably the weirdest thing about sets.</p>
+                  <p class="col-12 p-2">As an example, think of the set of piano keys on a guitar. "But wait!" you say, "There are no piano keys on a guitar!". And right you are. It is a set with <b>no elements</b>. This is known as the Empty Set (or Null Set).There aren't any elements in it. Not one. Zero.</p>
+                  <p class="col-12 p-2">It is represented by &#8709; or by { } (a set with no elements)</p>
+                  <p class="col-12 p-2">Some other examples of the empty set are <b>the set of countries south of the south pole.</b></p>
+                </div>
+              </div>
+            </div>
+            <p class="col-12 p-2"
+              style="text-indent: 60px;">So let's go back to our definition of subsets. We have a set A. We won't define it any more than that, it could be any set.<b>Is the empty set a subset of A?</b> Going back to our definition of subsets, <b>if every element in the empty set is also in A, then the empty set is a subset of A.</b> But what if we have no elements? It takes an introduction to logic to understand this, but this statement is one that is "vacuously" or "trivially" true. A good way to think about it is: we can't find any elements in the empty set that aren't in A, so it must be that all elements in the empty set are in A. So the answer to the posed question is a resounding <b>yes</b>.</p>
+            <p class="col-12 p-2"
+            style="text-align: center; font-size: 25px;"><i>The empty set is a subset of every set, including the empty set itself.</i>
+            </p>
+          </div>
+
+          <!-- Order-->
+          <div class="row">
+            <h3 class="mt-5">Order</h3>
+            <p class="col-12 p-2">No, not the order of the elements. In sets it does not matter what order the elements are in.</p>
+            <ul>
+              <li><h4>Example</h4></li>
+              <p>{1,2,3,4} is the same set as {3,1,4,2}</p>
+            </ul>
+            <p class="col-12 p-2"
+            style="text-align: center; font-size: 25px;"><i>When we say order in sets we mean the size of the set. Another (better) name for this is cardinality.</i>
+            </p>
+            <ul>
+              <li><h4>Example</h4></li>
+              <p>{10, 20, 30, 40} has an order of 4.</p>
+            </ul>
+            <p class="col-12 p-2">A finite set has finite order (or cardinality). An infinite set has infinite order (or cardinality). For finite sets the order (or cardinality) is the number of elements.</p>
+            <p class="col-12 p-2">For infinite sets, all we can say is that the order is infinite. Oddly enough, we can say with sets that some infinities are larger than others, but this is a more advanced topic in sets.</p>
+            <p class="col-12 p-2">To learn more about this topic, click the button down below.</p>
+          </div>
+         </div>
+
+         <!-- Video Button -->
+         <div class="container pt-1">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            Learn More
+          </button>
+
+          <!-- Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      class="embed-responsive-item w-100"
+                      src="https://www.youtube.com/embed/kAfjLFaaNlw"
+                      allowfullscreen
+                      height="375px"
+                    ></iframe>
+                  </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Button -->
+      <div class="container-fluid mt-3 mb-3">
+        <div class="d-flex justify-content-between  mb-3">
+          <div class="p-2 "><a href="../index.html" type="button" class="btn btn-primary">Back to Home</a></div>
+
+          <div class="p-2 "><a href="../quiz/Mathematics.sets_quiz.html" type="button" class="btn btn-primary">Start Quiz</a></div>
+
+          <div class="p-2 "><a href="Mathematics.venn.html" type="button" class="btn btn-primary">Set Operations and Venn Diagrams</a></div>
+        </div>
+      </div>
+      
+
+
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left side-->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <!-- Right side -->
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you to learn and to test your knowledge about the fundamentals of selected courses such as Mathematics, ICT, and EIM. 
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="#!" class="text-reset"
+                  ></a
+                >
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+
+    <!-- External script -->
+    <script type="text/javascript" src="../navbar_script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

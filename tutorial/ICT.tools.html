@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>ICT Computer Tools and Safety</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/horta"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins"
+    />
+  </head>
+
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            />
+            <p id="logo-txt">
+              <span id="comput-txt">Comput</span
+              ><span id="elech-txt">Elech</span>
+            </p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                  style="height: 50px; width: 50px"
+                  src="../image/logo-modified.png"
+                  alt="logo"
+                />
+              </a>
+              <span id="comput-txt">Comput</span
+              ><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight1"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">ICT</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight2"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">EIM</a>
+                </li>
+                <!-- Math Tutorial SideBar Section  Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Mathematics Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">College Algebra</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="Mathematics.sets.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Sets</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="Mathematics.venn.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Set Operations and Venn Diagrams</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Math Tutorial SideBar Section End -->
+                <!-- ICT Tutorial SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight1"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Information and Communications Technology Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">ICT Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="ICT.basics.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Computer</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.tools.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Tools and Safety</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.assembly.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Assembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.disassembly.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Disassembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="ICT.networking.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Networking Basics</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ICT Tutorial SideBar Section Ends -->
+                <!-- EIM Tutorial SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight2"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Electrical Installation and Maintenance Tutorials
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">EIM Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="EIM.basics.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Electricity</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="EIM.materials.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Electrical Materials and Tools</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="EIM.types.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Types of Electrical Diagram</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span
+                    ><a href="#">More</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight3"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight4"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">ICT</a>
+                </li>
+                <li
+                  class="more"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight5"
+                  aria-controls="offcanvasRight"
+                >
+                  <a href="#">EIM</a>
+                </li>
+                <!-- Math Quizzes SideBar Section  Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight3"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Mathematics Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">College Algebra</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/Mathematics.sets_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Sets</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/Mathematics.venn_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Set Operations and Venn Diagrams</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Math Quizzes SideBar Section End -->
+                <!-- ICT Quizzes SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight4"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Information and Communications Technology Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">ICT Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/ICT.basics_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Computer</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.tools_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Computer Tools and Safety</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.assembly_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Assembly</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/ICT.disassembly_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >PC Disassembly</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ICT Quizzes SideBar Section Ends -->
+                <!-- EIM Quizzes SideBar Section Starts-->
+                <div
+                  class="offcanvas offcanvas-end text-dark"
+                  tabindex="-1"
+                  id="offcanvasRight5"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Electrical Installation and Maintenance Quizzes
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <h3 style="font-size: 1.2rem">EIM Fundamentals</h3>
+                    <ul>
+                      <li>
+                        <a
+                          href="../quiz/EIM.basics_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                            margin-top: 20px;
+                          "
+                          >Basics of Electricity</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/EIM.materials_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Electrical Materials and Tools</a
+                        >
+                      </li>
+                      <hr />
+                      <li>
+                        <a
+                          href="../quiz/EIM.types_quiz.html"
+                          style="
+                            color: black;
+                            line-height: 0;
+                            font-size: 0.9rem;
+                          "
+                          >Types of Electrical Diagram</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+            <!--Quizzes link ends-->
+            <!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+        <!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img
+            style="width: 30px; height: 30px; cursor: pointer"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation bar ends-->
+
+    <!-- content 1 start -->
+    <div
+      class="section-2-container section-container section-container-gray-bg pt-5"
+      id="section-2"
+      style="margin-top: 10vh"
+    >
+      <div class="row">
+        <div class="col section-2 section-description wow fadeIn"></div>
+      </div>
+      <div class="container">
+        <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+          Computer Tools and Safety
+        </div>
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp">
+            <img
+              style="height: 400px; width: 400px"
+              src="../image/tosafe.JPG"
+              alt="about-us"
+              class="rounded w-100 mt-5 p-2"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%"></h3>
+            <p
+              style="text-align: justify; text-indent: 60px; margin-top: 2rem"
+              class="p-2"
+            >
+              Tools are an essential part of computer assembly and maintenance.
+              It is important to handle the tools carefully and safely. The
+              technician has to take care of the tools as well as personal
+              safety. Safe working practice helps to prevent injury to people
+              and damage to computer equipment. A safe workspace is clean,
+              organised, and properly lit. It is necessary to understand and
+              follow safety procedures. In this Chapter, we will understand the
+              safety precautions while handling tools as well as various tools
+              required for installation of the computer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content 1 end -->
+
+    <!-- content 2 start -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+          <h2 class="mt-5" style="margin-left: 10%">TOOLS</h2>
+          <h3 class="mt-5">Using Hardware Tools</h3>
+          <p>
+            For every job, there is a right tool. Use the correct tool for a
+            task. Skilled use of tools and software makes the job less difficult
+            and ensures that tasks are performed properly and safely. A tool kit
+            should contain all the tools necessary to complete hardware repairs.
+            Hardware tools are grouped into four categories —
+          </p>
+          <ul>
+            <li>ESD tools</li>
+            <li>Hand tools</li>
+            <li>Cleaning tools</li>
+            <li>Diagnostic tools</li>
+          </ul>
+        </div>
+        <div class="col-md-5 section-2-box wow fadeInUp">
+          <img
+            style="height: 100%; width: 100%"
+            src="https://thumbs.dreamstime.com/b/electrical-service-electrician-set-colorful-professional-tools-isolated-blue-background-worker-equipment-icon-156835946.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- content 2 end -->
+
+    <!-- content 3 start-->
+    <div>
+      <!-- ESD Tools start-->
+      <div class="container mt-5">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">ESD Tools</h3>
+            <p>
+              There are two ESD tools— the anti‑static wrist strap and the
+              anti‑static mat.
+            </p>
+            <p
+              style="text-align: justify; text-indent: 60px; margin-top: 2rem"
+              class="p-2"
+            >
+              The
+              <span style="font-weight: bold">anti‑static wrist strap</span>
+              protects computer equipment when grounded to a computer chassis.
+              It is used to prevent ESD damage to computer equipment.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 400px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/wrist-trap.JPG"
+              />
+            </div>
+            <p
+              style="text-align: justify; text-indent: 60px; margin-top: 2rem"
+              class="p-2"
+            >
+              The
+              <span style="font-weight: bold">anti‑static mat</span> protects
+              computer equipment by preventing static electricity from
+              accumulating on the hardware or on the technician. It is used to
+              stand or place onto the hardware to prevent static electricity
+              from building up.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 400px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/mat.JPG"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ESD Tools end-->
+
+      <!-- Hand tools start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">Hand tools</h3>
+            <p>
+              Most tools used in the computer assembly process are small hand
+              tools. They are available individually or as part of a computer
+              repair tool kit. Tool kits range widely in size, quality, and
+              price.
+            </p>
+            <h5 class="mt-5">Electronic cutter</h5>
+            <p>
+              This belongs to the family of pliers and cutter. It is used in
+              printed circuit board and to cut fine wire. It is sharp enough and
+              hence cannot damage the other nearby wires.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://www.makerspaces.com/wp-content/uploads/2017/05/wire-snippers.jpg"
+              />
+            </div>
+            <h5 class="mt-5">Precise screwdriver</h5>
+            <p>
+              Screwdriver is a hand held tool, commonly used for inserting and
+              removing of screw. Screwdriver is made up of a bit and handle.
+              Bits are detachable according to the use and are made up of metal,
+              whereas handle is made up of insulating material.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/screw.JPG"
+              />
+            </div>
+            <h5 class="mt-5">Wire stripper</h5>
+            <p>
+              It is a portable handheld tool used by workers, especially
+              electricians, for removing the protective coating of an electric
+              wire in order to replace or repair the wire. It is also capable of
+              stripping the end portions of an electric wire in order to connect
+              them to other wires or to terminals. A wire stripper is often
+              considered an important tool for professional electricians and
+              other related personnel.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://circuit.rocks/image/cache/product/AN451/bst-5021-multifunctional-wire-stripper-cutter-crimper-crimping-plier-tools-for-harness-cable-465-970x728.jpeg"
+              />
+            </div>
+            <h5 class="mt-5">Crimper</h5>
+            <p>
+              This is used for the joining of stripped wire and special
+              connector. Stripped wire is inserted through the correctly sized
+              opening of the connector. And then crimper is used to tightly
+              squeeze the opening against the wire.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/crimper.JPG"
+              />
+            </div>
+            <h5>Tweezers</h5>
+            <p>These are used to manipulate small parts.</p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://static-01.daraz.pk/original/9d1013cd9b2e570292ff5ac5840468e8.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hand tools end -->
+
+      <!-- Cleaning Tools start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">Cleaning Tools</h3>
+            <h5 class="mt-4">Soft lint‑free cloth</h5>
+            <p>
+              It used to clean different computer components without scratching
+              or leaving debris.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://sc01.alicdn.com/kf/HTB1Fl_KmLImBKNjSZFlq6A43FXah/225665517/HTB1Fl_KmLImBKNjSZFlq6A43FXah.jpg"
+              />
+            </div>
+            <h5 class="mt-5">Compressed air</h5>
+            <p>
+              It used to blow away dust and debris from different computer parts
+              without touching the components.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/air.JPG"
+              />
+            </div>
+            <h5 class="mt-5">Cable ties</h5>
+            <p>
+              They are used to bundle cables neatly inside and outside Of a
+              computer.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 300px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://circuit.rocks/image/cache/product/CRX001/cable-tie-nylon-4-x-200mm-black-50pcs-1668-970x728.jpg"
+              />
+            </div>
+            <h5 class="mt-5">Parts organiser</h5>
+            <p>
+              It used to hold screws, jumpers, fasteners, and other small parts
+              and prevent them from getting mixed up together.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="../image/organiser.JPG"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cleaning Tools end -->
+
+      <!-- Diagnostic Tools start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">Diagnostic Tools</h3>
+            <h5 class="mt-4">Toner probe</h5>
+            <p>
+              It is a two‑part tool. The toner part is connected to a cable at
+              one end using specific adapters such as an RJ‑45, coaxial, or
+              metal clips. The toner generates a tone that travels the length of
+              the cable. The probe part traces the cable. When the probe is in
+              near proximity to the cable to which the toner is attached, the
+              tone can be heard through a speaker in the probe.
+            </p>
+            <div class="row">
+              <img
+                style="
+                  height: 400px;
+                  width: 500px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+                "
+                src="https://ph.element14.com/productimages/large/en_GB/2472134-40.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Diagnostic Tools end -->
+
+      <!-- SAFETY start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h2 class="mt-5" style="margin-left: 10%">SAFETY</h2>
+            <p>
+              While installing computer and peripherals, you should follow the
+              basic safety guidelines to prevent cuts, burns, electrical shock,
+              and damage to eyesight. As a best practice, make sure that a fire
+              extinguisher and first aid kits are available in case of fire or
+              injury. Place the cables in conduit or cable trays to prevent
+              hazards. Some basic safety precautions to be followed when working
+              on a computer are as below:
+            </p>
+            <h5 class="mt-5">Basic safety guidelines</h5>
+            <ul>
+              <li>Remove your watch and jewelry.</li>
+              <li>
+                Turn off the power and unplug equipment before Installation.
+              </li>
+              <li>Never open a power supply or a CRT monitor.</li>
+              <li>
+                Do not touch the computer and the printer’s part that use high
+                voltage.
+              </li>
+              <li>
+                Know about the location of fire extinguisher and It’s use.
+              </li>
+              <li>
+                Take necessary precautions when lifting heavy objects to avoid
+                injury.
+              </li>
+              <li>Keep food and drinks out of your workspace.</li>
+            </ul>
+          </div>
+          <div class="col-md-5 section-2-box wow fadeInUp p-4">
+            <img
+              style="height: 100%; width: 100%"
+              class="p-4"
+              src="https://media.istockphoto.com/vectors/african-businessman-holding-safety-first-sign-vector-id1156193401?k=20&m=1156193401&s=612x612&w=0&h=j9lJ18PejUnzSC6sYiS2xKcYqu41Z-VF9inZwfIQ7Uo="
+            />
+          </div>
+        </div>
+      </div>
+      <!-- SAFETY end -->
+
+      <!-- Electrical safety start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-5 section-2-box wow fadeInUp p-4">
+            <img
+              style="height: 100%; width: 100%"
+              class="p-4"
+              src="../image/elecsafe.JPG"
+            />
+          </div>
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">Electrical safety</h3>
+            <p>
+              Follow electrical safety guidelines to prevent electrical fires
+              and injuries. Power supplies and CRT monitors contain high
+              voltage.
+            </p>
+            <h5><em>Precautions</em></h5>
+            <p>
+              Do not wear the anti‑static wrist strap when repairing power
+              supplies or CRT monitors. Some components retain a high voltage
+              even after the printer is turned off. Check the printer manual for
+              the location of high‑ voltage components.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Electrical safety end -->
+
+      <!-- Fire safety start -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-7 section-2-box wow fadeInLeft p-2">
+            <h3 class="mt-5" style="margin-left: 10%">Fire safety</h3>
+            <p>
+              Follow fire safety guidelines to protect yourself and equipment.
+              To avoid an electrical shock and to prevent damage to the
+              computer, turn off and unplug the computer before beginning
+              installation.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              Fire can spread rapidly. Proper use of a fire extinguisher can
+              prevent a small fire from getting out of control. When working
+              with computer components, be aware of the possibility of an
+              accidental fire and know how to react. Be alert for odors emitting
+              from computers and electronic devices. When electronic components
+              overheat or short out, they emit a burning odor. In case of fire,
+              follow the following safety procedures —
+            </p>
+          </div>
+          <div class="col-md-5 section-2-box wow fadeInUp p-4">
+            <img
+              style="height: 100%; width: 100%"
+              class="p-4"
+              src="../image/firesafe.JPG"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div>
+            <ul>
+              <li>Never fight a fire that is out of control.</li>
+              <li>
+                Keep a planned fire escape route before beginning any work.
+              </li>
+              <li>Get out of the building quickly.</li>
+              <li>Contact emergency services for help.</li>
+              <li>
+                Read the instructions on the fire extinguishers in workplace
+                before you have to use them.
+              </li>
+            </ul>
+            <p style="text-align: justify; text-indent: 60px">
+              Be familiar with the types of fire extinguishers. Each type of
+              fire extinguisher has specific chemicals to fight different types
+              of fires (causes) — paper, wood, plastics, cardboard, gasoline,
+              kerosene, organic solvents, electrical equipment, or combustible
+              metals.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              It is important to know how to use a fire extinguisher. Use the
+              memory aid P‑A‑S‑S to remember the basic rules of fire
+              extinguisher operation:
+            </p>
+            <ul style="list-style: none">
+              <li>P — pull the pin.</li>
+              <li>A — aim at the base of the fire, not at the flames.</li>
+              <li>S — squeeze the lever.</li>
+              <li>S — sweep the nozzle from side to side.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Fire safety end -->
+
+      <!-- Protecting Equipment start -->
+      <div class="container mt-3">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">Protecting Equipment</h3>
+            <h5 class="mt-5">Electrostatic discharge (ESD)</h5>
+            <p>
+              Electrostatic discharge (ESD) and poor‑quality sources of
+              electricity can cause damage to computer equipment. Follow proper
+              handling guidelines, be aware of environmental issues, and use
+              equipment that stabilizes power to prevent equipment damage and
+              data loss.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              Static electricity is an electric charge resting on a surface. ESD
+              occurs when this build‑up charge jumps to a component and causes
+              damage. ESD can be destructive to the electronics in a computer
+              system.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              At least 3,000 volts of static electricity must build up before a
+              person can feel ESD. For example, static electricity can build up
+              on you as you walk across a carpeted floor. When you touch another
+              person, you both receive a shock. If the discharge causes pain or
+              makes a noise, the charge was probably above 10,000 volts. By
+              comparison, less than 30 volts of static electricity can damage a
+              computer component.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              ESD can cause permanent damage to electrical components. Follow
+              these recommendations to help prevent ESD damage:
+            </p>
+            <ul>
+              <li>
+                Keep all components in anti‑static bags until you install them.
+              </li>
+              <li>Use grounded mats on workbenches.</li>
+              <li>Use grounded floor mats in work areas.</li>
+              <li>Use anti‑static wrist straps when working on computers.</li>
+            </ul>
+            <h5 class="mt-5">Electromagnetic interference</h5>
+            <p>
+              It is the intrusion of outside electromagnetic signals in a
+              transmission media, such as copper cabling. In a network
+              environment, EMI distorts the signals so that the receiving
+              devices have difficulty interpreting them.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              EMI does not always come from expected sources, such as cellular
+              phones. Other types of electric equipment can emit a silent,
+              invisible electromagnetic field. There are many sources of EMI:
+            </p>
+            <ul>
+              <li>Any source designed to generate electromagnetic energy.</li>
+              <li>Man‑made sources like power lines or motors.</li>
+              <li>
+                Natural events such as electrical storms, or solar and
+                interstellar radiations.
+              </li>
+            </ul>
+            <p style="text-align: justify; text-indent: 60px">
+              Wireless networks are affected by radio frequency interference
+              (RFI). RFI is caused by radio transmitters and other devices
+              transmitting in the same frequency. For example, a cordless
+              telephone can cause problems with a wireless network when both
+              devices use the same frequency. Microwaves can also cause
+              interference when positioned in close proximity to wireless
+              networking devices.
+            </p>
+            <h5 class="mt-5">Climate</h5>
+            <p>This affects the computer equipment in variety of ways:</p>
+            <ul>
+              <li>
+                If the environment temperature is too high, equipment can
+                overheat.
+              </li>
+              <li>
+                If the humidity level is too low, the chance of ESD increases.
+              </li>
+              <li>
+                If the humidity level is too high, equipment can suffer from
+                moisture damage.
+              </li>
+            </ul>
+            <h5 class="mt-5">Power fluctuations</h5>
+            <p>
+              Voltage is a measure of work required to move a charge from one
+              location to another. The movement of electrons is called current.
+              Computer circuits need voltage and current to operate electronic
+              components. When the voltage in a computer is not accurate or
+              steady, computer components might not operate correctly. Unsteady
+              voltages are called power fluctuations.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              The following types of AC power fluctuations can cause data loss
+              or hardware failure:
+            </p>
+            <ul>
+              <li>
+                Blackout — complete loss of AC power. A fuse, damaged
+                transformer, or downed power line can cause a blackout.
+              </li>
+              <li>
+                Noise — interference from generators and lightning. Noise
+                results in poor quality power, which can cause errors in a
+                computer system.
+              </li>
+              <li>
+                Spike — sudden increase in voltage that lasts for a short period
+                and exceeds 100 per cent of the normal voltage on a line. Spikes
+                can be caused by lightning strikes, but can also occur when the
+                electrical system comes back on after a blackout.
+              </li>
+              <li>
+                Power surge — dramatic increase in voltage above the normal flow
+                of electrical current. A power surge lasts for a few
+                nanoseconds, or one‑ billionth of a second.
+              </li>
+            </ul>
+            <h5 class="mt-5">Power protection devices</h5>
+            <p>
+              To help shield against power fluctuation problems, use devices to
+              protect the data and computer equipment:
+            </p>
+            <ul>
+              <li>
+                surge suppressor — It diverts extra electrical voltage that is
+                on the line to the ground. It helps to protect against damage
+                from surges and spikes.
+              </li>
+              <li>
+                Uninterruptible power supply (UPS) — It provides a consistent
+                quality of power when power supply goes off. It helps to protect
+                against potential electrical power problems by supplying a
+                consistent level of electrical power to a computer or other
+                device. The battery is constantly recharging while the UPS is in
+                use. Never plug in a laser printer into a UPS because the
+                printer could overload the UPS.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Protecting Equipment end -->
+
+      <!-- Proper Disposal to Protect Environment start -->
+      <div class="container mt-3">
+        <div class="row">
+          <div>
+            <h3 class="mt-5" style="margin-left: 10%">
+              Proper Disposal to Protect Environment
+            </h3>
+            <p>
+              To protect the environment it is essential to properly dispose or
+              recycle the hazardous computer components.
+            </p>
+            <h5 class="mt-5">Batteries</h5>
+            <p>
+              They contain rare earth metals that can be harmful to the
+              environment. Batteries from portable computer systems contain
+              lead, cadmium, lithium, alkaline manganese, and mercury. These
+              metals do not decay and they remain in the environment for many
+              years. Mercury is commonly used in the manufacturing of batteries
+              and is extremely toxic and harmful for human beings. Hence,
+              recycling of batteries should be adopted as a standard practice.
+            </p>
+            <h5 class="mt-5">Monitors</h5>
+            <p>
+              They contain glass, metal, plastics, lead, barium, and rare earth
+              metals. They must be disposed of in compliance with environmental
+              regulations. CRT monitors must be handled with care. Extremely
+              high voltage can be stored in these monitors, even after being
+              disconnected from a power source.
+            </p>
+            <h5 class="mt-5">Toner kits, cartridges, and developers</h5>
+            <p>
+              Used printer toner kits and printer cartridges must be disposed of
+              properly or recycled. Some toner cartridge suppliers and
+              manufacturers take empty cartridges for refilling. Some companies
+              specialize in refilling empty cartridges. Kits to refill inkjet
+              printer cartridges are available but are not recommended, because
+              the ink might leak into the printer causing irreparable damage.
+            </p>
+            <h5 class="mt-5">Chemical solvents and aerosol cans</h5>
+            <p>
+              Contact the local sanitation company to learn how and where to
+              dispose of the chemicals and solvents used to clean computers.
+              Never dump chemicals or solvents down a sink or dispose them in a
+              drain that connects to public sewers.
+            </p>
+            <p style="text-align: justify; text-indent: 60px">
+              The cans or bottles that contain solvents and other cleaning
+              supplies must be handled carefully. Make sure that they are
+              identified and treated as special hazardous waste. For example,
+              some aerosol cans explode when exposed to heat if the contents are
+              not completely used.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Proper Disposal to Protect Environment end -->
+    </div>
+    <!-- content 3 end -->
+
+    <!-- Button -->
+    <div class="container-fluid mt-3 mb-3">
+      <div class="d-flex justify-content-between mb-3">
+        <div class="p-2">
+          <a href="ICT.basics.html" type="button" class="btn btn-primary"
+            >Basics of Computer</a
+          >
+        </div>
+
+        <div class="p-2">
+          <a
+            href="../quiz/ICT.tools_quiz.html"
+            type="button"
+            class="btn btn-primary"
+            >Start Quiz</a
+          >
+        </div>
+
+        <div class="p-2">
+          <a href="ICT.assembly.html" type="button" class="btn btn-primary"
+            >PC Assembly</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section Starts -->
+    <!-- Footer -->
+    <footer class="footer11 text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left side-->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <!-- Right side -->
+        <div class="footer row">
+          <div class="col-lg">
+            <div class="social-icon text-center mb-3 fs-1">
+              <a
+                href="https://www.facebook.com/"
+                class="fb fab fa-facebook-f"
+              ></a>
+              <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="insta fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/"
+                class="me-1 link fab fa-linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-computer me-3 text-grayish"></i>About
+                ComputElech
+              </h6>
+              <p>
+                The ComputElech website is an e-learning website that helps you
+                to learn and to test your knowledge about the fundamentals of
+                selected courses such as Mathematics, ICT, and EIM.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+              <p>
+                <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a
+                  style="text-decoration: none"
+                  href="#!"
+                  class="text-reset"
+                ></a>
+              </p>
+              <p>
+                <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+                  >Buy Us A Coffee</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+                  10012</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-envelope me-1 text-grayish"></i>
+                  ComputElech@gmail.com</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+                  244</a
+                >
+              </p>
+              <p>
+                <a
+                  style="cursor: pointer; color: #fff; text-decoration: none"
+                  href="#"
+                  ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+                  89</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+        © 2022.
+        <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+        . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+      </div>
+      <!-- Copyright Ends -->
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+
+    <!-- External script -->
+    <script type="text/javascript" src="../navbar_script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

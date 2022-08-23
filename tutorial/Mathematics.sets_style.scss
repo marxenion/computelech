@@ -1,0 +1,20 @@
+$center: auto;
+$tipbox: 2px ridge #0078D4;
+$tipspace: 25px;
+
+
+
+
+
+
+
+.notation_pic1{
+    margin: $center;
+    display: block;
+}
+.tip{
+    margin: $center;
+    width: fit-content;
+    border: $tipbox;
+    padding: $tipspace;
+}

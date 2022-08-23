@@ -1,0 +1,13 @@
+.notation_pic1 {
+  margin: auto;
+  display: block;
+}
+
+.tip {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px ridge #0078D4;
+  padding: 25px;
+}/*# sourceMappingURL=Mathematics.sets_style.css.map */

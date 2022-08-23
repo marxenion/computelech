@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <title>Mathematics Set Operations and Venn Diagrams</title>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tab icon-->
+    <link rel="icon" href="../image/logo-modified.png" type="icon/x-icon">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../navbar_style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Import Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+  </head>
+    
+  
+  <body id="bttn">
+    <!-- Navigation Bar begins-->
+    <nav id="navbar">
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              style="height: 50px; width: 50px"
+              src="../image/logo-modified.png"
+              alt="logo"
+            /><p id="logo-txt"><span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span></p>
+          </a>
+        </div>
+
+        <!-- Responsive Navigation Bar-->
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">
+              <a href="../index.html">
+                <img
+                style="height: 50px; width: 50px"
+                src="../image/logo-modified.png"
+                alt="logo"
+              />
+            </a>
+            <span id='comput-txt'>Comput</span><span id="elech-txt">Elech</span>
+            </span>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- Navigation links-->
+          <ul class="links">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+              <a href="#">TUTORIALS</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight1"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight2"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Tutorial SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="Mathematics.sets.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="Mathematics.venn.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Tutorial SideBar Section End -->
+<!-- ICT Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight1"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Tutorials
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="ICT.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="ICT.tools.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="ICT.assembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="ICT.disassembly.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+              <hr>
+              <li><a href="ICT.networking.html" style="color: black;line-height: 0 ;font-size: .9rem;">Computer Networking Basics</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Tutorial SideBar Section Ends -->
+<!-- EIM Tutorial SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Tutorials
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="EIM.basics.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="EIM.materials.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="EIM.types.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Tutorial SideBar Section Ends-->
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="../index2.html">Coming Soon</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="#">QUIZZES</a>
+              <i class='bx bxs-chevron-down js-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li class="more"  data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight3"
+                aria-controls="offcanvasRight">
+                  <a href="#">MATHEMATICS</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight4"
+                aria-controls="offcanvasRight">
+                  <a href="#">ICT</a>
+                </li>
+                <li class="more" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight5"
+                aria-controls="offcanvasRight">
+                  <a href="#">EIM</a>
+                </li>
+<!-- Math Quizzes SideBar Section  Starts-->
+            <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+            >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+               Mathematics Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">College Algebra</h3>
+              <ul>
+                <li><a href="../quiz/Mathematics.sets_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Sets</a></li>
+                <hr>
+                <li><a href="../quiz/Mathematics.venn_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Set Operations and Venn Diagrams</a></li>
+            </ul>
+            </div>
+          </div>
+<!-- Math Quizzes SideBar Section End -->
+<!-- ICT Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              Information and Communications Technology Quizzes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <h3 style="font-size: 1.2rem;">ICT Fundamentals</h3>
+            <ul>
+              <li><a href="../quiz/ICT.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Computer</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.tools_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Computer Tools and Safety</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.assembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Assembly</a></li>
+              <hr>
+              <li><a href="../quiz/ICT.disassembly_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">PC Disassembly</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- ICT Quizzes SideBar Section Ends -->
+<!-- EIM Quizzes SideBar Section Starts-->
+          <div
+            class="offcanvas offcanvas-end text-dark"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Electrical Installation and Maintenance Quizzes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <h3 style="font-size: 1.2rem;">EIM Fundamentals</h3>
+              <ul>
+                <li><a href="../quiz/EIM.basics_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem; margin-top: 20px;">Basics of Electricity</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.materials_quiz.html" style="color: black; line-height: 0; font-size: .9rem;">Electrical Materials and Tools</a></li>
+                <hr>
+                <li><a href="../quiz/EIM.types_quiz.html" style="color: black;line-height: 0 ;font-size: .9rem;">Types of Electrical Diagram</a></li>
+              </ul>
+            </div>
+          </div>
+<!-- EIM Quizzes SideBar Section Ends-->
+              </ul>
+            </li>
+<!--Quizzes link ends-->
+<!--About Us-->
+            <li><a href="../about/about-us.html">ABOUT US</a></li>
+          </ul>
+        </div>
+<!-- Dark mode icon-->
+        <div class="fs-4 mt-1 form-check form-switch">
+          <img 
+            style="width: 30px; height: 30px; cursor: pointer;"
+            src="../image/mode.svg"
+            onclick="myfunction()"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </nav>
+<!-- Navigation bar ends-->
+
+  <!-- Content -->
+  <div class="container" style="margin-top: 20vh;">
+
+    <div class="row">
+      <div class="col section-2 section-description wow fadeIn"></div>
+    </div>
+    <div class="container ">
+      <div class="text-center fs-1 fw-bold text-uppercase bg-info p-2">
+        <p style="font-size: 5">Set Operations and Venn Diagrams </p>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="row">
+        <h3 class="mt-5">Introduction</h3>
+        <p class="col-12 p-2"
+          style="text-indent: 60px;">Sets are treated as mathematical objects. Similarly to numbers, we can perform certain mathematical operations on sets. Below we consider the principal operations involving the intersection, union, difference, symmetric difference, and the complement of sets. To visualize set operations, we will use Venn diagrams. In a Venn diagram, a rectangle shows the universal set, and all other sets are usually represented by circles within the rectangle. The shaded region represents the result of the operation.</p>
+    </div>
+
+    <!-- Intersection of Sets-->
+    <div class="row">
+        <h3 class="mt-5">Intersection of Sets</h3>
+        <p class="col-12 p-2"
+          style="text-indent: 60px;">The intersection of two sets, A and B, is the set of elements which are in both sets A and B. The intersection of the two sets is written as A &#8745; B.
+        <img class="w-25 d-block m-auto mt-5 mb-5 col-12" src="https://math24.net/images/set-operations2.svg" alt="intersection"/>
+        <p class="col-12 p-2">Two sets are called <b>disjoint</b> if they have no elements in common.</p>
+        <ul>
+          <li><h4>Example:</h4></li>
+          <p>A = { a, b, c }, B = {k, l, m}</p>
+        </ul>
+        <p class="col-12 p-2">These two sets are disjoint as they have no common elements. Their intersection is the empty set. The intersection of these sets is A &#8745; B = { a, b, c } &#8745; { k, l, m} = &#8709;</p>
+        <ul>
+            <li><h4>Example:</h4></li>
+            <p>C = { 1, 2, 3, 4 }, D = {2, 4, 6, 7}</p>
+        </ul>
+        <p class="col-12 p-2">The intersection of these sets is C &#8745; D = { 1, 2, 3, 4 } &#8745; { 2, 4, 6, 7} = { 2, 4 }</p>
+    </div>
+
+    <!-- Union of Sets -->
+    <div class="row">
+        <h3 class="mt-5">Union of Sets</h3>
+        <p class="col-12 p-2"
+          style="text-indent: 60px;">The union of two sets A and B is defined as the set of elements which are either in set A or set B or in both A and B. This operation is denoted by the  symbol.
+        </p>
+        <img class="w-25 d-block m-auto mt-5 mb-5 col-12" src="https://math24.net/images/set-operations1.svg" alt="union"/>
+        <ul>
+          <li><h4>Example:</h4></li>
+          <p>A = { a, b, c }, B = {k, l, m}</p>
+          <p>The union of the two sets is given by A &#8746; B = { a, b, c } &#8746; { k, l, m } = { a, b, c , k, l, m }.</p>
+        </ul>
+        <ul>
+          <li><h4>Example:</h4></li>
+          <p>C = { 1, 2, 3, 4 }, D = {2, 4, 6, 7}</p>
+        </ul>
+        <p>The union of the two sets is given by C &#8746; D = { 1, 2, 3, 4 } &#8746; { 2, 4, 6, 7 } = { 1, 2, 3 , 4, 6, 7 }.</p>
+        </p>
+    </div>
+
+    <!-- Principle of Inclusion-Exclusion -->
+    <div class="row">
+      <h3 class="mt-5">Principle of Inclusion-Exclusion</h3>
+      <p class="col-12 p-2"
+          style="text-indent: 60px;">The cardinality of a finite set A, denoted by |A| is equal to the number of elements in it. The cardinality of the union of two finite sets A and B is given by the following relationship:
+      </p>
+      <p class="col-12 p-2 text-center">|A &#8746; B| = |A| + |B| - |A &#8745; B|, </p>
+      <p class="col-12 p-2">where |A &#8745; B| is the cardinality of the intersection of A and B.</p>
+      <p class="col-12">he similar formula exists for the union of 3 finite sets:</p>
+      <p class="col-12 p-2 text-center">|A &#8746; B &#8746; C| = |A| + |B| + |C| - |A &#8745; B| - |A &#8745; C| - |B &#8745; C| + |A &#8745; B &#8745; C|</p>
+    </div>
+
+    <!-- Difference of Two Sets -->
+    <div class="row">
+      <h3 class="mt-5">Difference of Two Sets</h3>
+      <p class="col-12 p-2"
+        style="text-indent: 60px;">The difference of two sets A and B is the set that contains exactly all elements in A but not in B. The difference of two sets A and B is denoted by A\B or A - B.
+      </p>
+      <img class="w-25 d-block m-auto mt-5 mb-5 col-12" src="https://math24.net/images/set-operations1.svg" alt="difference"/>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>A = { a, b, c }, B = {k, l, m}</p>
+        <p>The difference between two disjoint sets is equal to the initial set. So, we have A \ B = A \ ( A &#8745; B ) = A \ &#8709; = A = { a, b, c }</p>
+      </ul>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>C = { 1, 2, 3, 4 }, D = {2, 4, 6, 7}</p>
+        <p>The difference of two sets C and D is given by C \ D = { 1, 2, 3, 4 } - { 2, 4, 6, 7 } = { 1, 3 }</p>
+      </ul>
+    </div>
+
+    <!-- Symmetric Difference -->
+    <div class="row">
+      <h3 class="mt-5">Symmetric Difference</h3>
+      <p class="col-12 p-2"
+        style="text-indent: 60px;">The symmetric difference of two sets A and B is the set of all elements which belong to exactly one of the two original sets. This operation is written as A &#x25B3; B or A &#x2295; B.
+      <img class="w-25 d-block m-auto mt-5 mb-5 col-12" src="https://math24.net/images/set-operations4.svg" alt="symmetry"/>
+      </p>
+      <p class="col-12 p-2">In terms of unions and intersections, the symmetric difference of two sets A and B can be expressed as</p>
+      <p class="col-12 p-2 text-center">A &#x25B3; B = ( A &#8746; B ) \ (A &#8745; B).</p>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>A = { a, b, c }, B = {k, l, m}</p>
+        <p>The symmetric difference of two disjoint sets is equal to their union. So, we have A &#x25B3; B = ( A &#8746; B ) \ ( A &#8745; B ) = ( A &#8746; B ) \ &#8709; = A &#8746; B = { a, b, c, k, l, m }</p>
+      </ul>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>C = { 1, 2, 3, 4 }, D = {2, 4, 6, 7}</p>
+        <p>The symmetric difference of the sets C and D is given by C and D  is given by C &#x25B3; D = ( C &#8746; D ) \ ( C &#8745; D ) = { 1, 2, 3, 4, 6, 7 } - { 2, 4 } = { 1, 3, 6, 7 }</p>
+      </ul>
+    </div>
+
+    <!-- Complement of a Set-->
+    <div class="row">
+      <h3 class="mt-5">Complement of a Set</h3>
+      <p class="col-12 p-2"
+        style="text-indent: 60px;"> The complement of a set A is the set of elements in the given universal set U that are not elements of A. The complement of A is denoted by A<sup>c</sup> or sometimes A', or sometimes A&#xAF;. So by definition, we have
+      </p>
+      <img class="w-25 d-block m-auto mt-5 mb-5 col-12" src="https://math24.net/images/set-operations5.svg" alt="symmetry"/>
+      </p>
+      <p class="col-12 p-2 text-center">A<sup>c</sup> = U\A</p>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>Let the universal set be U = { a, b, c, d, e, f}. If A = { a, b, d, f} then the complement of A is given by</p>
+        <p class="col-12 p-2 text-center">A<sup>c</sup> = U\A = { c, e }</p>
+      </ul>
+      <ul>
+        <li><h4>Example:</h4></li>
+        <p>C = { 1, 2, 3, 4 }, D = {2, 4, 6, 7}</p>
+        <p>Suppose the universal set is
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>U</mi>
+            <mo>=</mo>
+            <mo fence="false" stretchy="false">{</mo>
+            <mi>x</mi>
+            <mo>&#x2208;</mo>
+            <mrow data-mjx-texclass="ORD">
+              <mi mathvariant="double-struck">Z</mi>
+            </mrow>
+            <mo>&#x2223;</mo>
+            <mrow data-mjx-texclass="ORD">
+              <msup>
+                <mi>x<sup>2</sup></mi>
+              </msup>
+            </mrow>
+            <mo>&lt;</mo>
+            <mn>20</mn>
+            <mo fence="false" stretchy="false">}</mo>
+          </math>
+        and the set A is given by 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <mi>A</mi>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mi>x</mi>
+          <mo>&#x2208;</mo>
+          <mrow data-mjx-texclass="ORD">
+            <mi mathvariant="double-struck">Z</mi>
+          </mrow>
+          <mo>&#x2223;</mo>
+          <mo>&#x2212;</mo>
+          <mn>3</mn>
+          <mo>&#x2264;</mo>
+          <mi>x</mi>
+          <mo>&lt;</mo>
+          <mn>3</mn>
+          <mo fence="false" stretchy="false">}</mo>
+          <mo>.</mo>
+        </math>
+        Find the complement of A.
+        </p>
+      </ul>
+      <p class="col-12 p-2 text-center">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+          <mi>U</mi>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mo>&#x2212;</mo>
+          <mn>4</mn>
+          <mo>,</mo>
+          <mo>&#x2212;</mo>
+          <mn>3</mn>
+          <mo>,</mo>
+          <mo>&#x2212;</mo>
+          <mn>2</mn>
+          <mo>,</mo>
+          <mo>&#x2212;</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>0</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>2</mn>
+          <mo>,</mo>
+          <mn>3</mn>
+          <mo>,</mo>
+          <mn>4</mn>
+          <mo fence="false" stretchy="false">}</mo>
+          <mo>,</mo>
+          <mstyle scriptlevel="0">
+            <mspace width="0.278em"></mspace>
+          </mstyle>
+          <mstyle scriptlevel="0">
+            <mspace width="0.278em"></mspace>
+          </mstyle>
+          <mi>A</mi>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mo>&#x2212;</mo>
+          <mn>3</mn>
+          <mo>,</mo>
+          <mo>&#x2212;</mo>
+          <mn>2</mn>
+          <mo>,</mo>
+          <mo>&#x2212;</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>0</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>2</mn>
+          <mo fence="false" stretchy="false">}</mo>
+          <mo>,</mo>
+          <mstyle scriptlevel="0">
+            <mspace width="0.278em"></mspace>
+          </mstyle>
+          <mstyle scriptlevel="0">
+            <mspace width="0.278em"></mspace>
+          </mstyle>
+          <mo stretchy="false">&#x21D2;</mo>
+          <mrow data-mjx-texclass="ORD">
+            <msup>
+              <mi>A<sup>c</sup></mi>
+            </msup>
+          </mrow>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mo>&#x2212;</mo>
+          <mn>4</mn>
+          <mo>,</mo>
+          <mn>3</mn>
+          <mo>,</mo>
+          <mn>4</mn>
+          <mo fence="false" stretchy="false">}</mo>
+          <mo>.</mo>
+        </math>
+        <p class="col-12">To learn more about this topic, click the link down below.</p>
+      </p>
+
+      <!-- Video Button -->
+      <div class="container pt-1">
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#myModal"
+        >
+          Learn More
+        </button>
+
+        <!-- Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item w-100"
+                    src="https://www.youtube.com/embed/xZELQc11ACY"
+                    allowfullscreen
+                    height="375px"
+                  ></iframe>
+                </div>
+              </div>
+              
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  <!-- Button -->
+  <div class="container-fluid mt-3 mb-3">
+    <div class="d-flex justify-content-between  mb-3">
+      <div class="p-2 "><button type="button" class="btn btn-primary ">Back</button></div>
+
+      <div class="p-2 "><button type="button" class="btn btn-primary">Start Quiz</button></div>
+
+      <div class="p-2 "> <button type="button" class="btn btn-primary ">Next</button></div>
+    </div>
+  </div>
+  </div>
+
+
+<!-- Footer -->
+<footer class="footer11 text-center text-lg-start text-white">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left side-->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+
+    <!-- Right side -->
+    <div class="footer row">
+      <div class="col-lg">
+        <div class="social-icon text-center mb-3 fs-1">
+          <a
+            href="https://www.facebook.com/"
+            class="fb fab fa-facebook-f"
+          ></a>
+          <a href="https://twitter.com/" class="tw fab fa-twitter"></a>
+          <a
+            href="https://www.instagram.com/"
+            class="insta fab fa-instagram"
+          ></a>
+          <a
+            href="https://www.linkedin.com/"
+            class="me-1 link fab fa-linkedin"
+          ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-computer me-3 text-grayish"></i>About ComputElech
+          </h6>
+          <p>
+            The ComputElech website is an e-learning website that helps you to learn and to test your knowledge about the fundamentals of selected courses such as Mathematics, ICT, and EIM. 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+          <p>
+            <a style="text-decoration: none" href="../about/about-us.html" class="text-reset"
+              >About Us</a
+            >
+          </p>
+          <p>
+            <a style="text-decoration: none" href="#!" class="text-reset"
+              ></a
+            >
+          </p>
+          <p>
+            <a style="text-decoration: none" href="https://www.buymeacoffee.com/" class="text-reset"
+              >Buy Us A Coffee</a
+            >
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-2">Contact US</h6>
+          <p>
+            <a
+              style="cursor: pointer; color: #fff; text-decoration: none"
+              href="#"
+              ><i class="fas fa-home me-1 text-grayish"></i> New York, NY
+              10012</a
+            >
+          </p>
+          <p>
+            <a
+              style="cursor: pointer; color: #fff; text-decoration: none"
+              href="#"
+              ><i class="fas fa-envelope me-1 text-grayish"></i>
+              ComputElech@gmail.com</a
+            >
+          </p>
+          <p>
+            <a
+              style="cursor: pointer; color: #fff; text-decoration: none"
+              href="#"
+              ><i class="fas fa-phone me-1 text-grayish"></i> 0999 2344
+              244</a
+            >
+          </p>
+          <p>
+            <a
+              style="cursor: pointer; color: #fff; text-decoration: none"
+              href="#"
+              ><i class="fas fa-print me-1 text-grayish"></i> + 01 234 567
+              89</a
+            >
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgb(109, 109, 109)">
+    © 2022.
+    <a class="text-reset fw-bold" href="../index.html">ComputElech</a>
+    . Created by Justine, Mark Nixon, & Jed. All Rights Reserved.
+  </div>
+  <!-- Copyright Ends -->
+</footer>
+<!-- Footer Section Ends -->
+
+<!-- jquery -->
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+></script>
+
+<!-- External script -->
+<script type="text/javascript" src="../navbar_script.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>
